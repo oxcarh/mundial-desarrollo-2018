@@ -277,7 +277,7 @@ var VisSimulator = (function () {
                 var img = d3.select('image.flag.' + d.grupo + d.ranking);
 
                 img.attr('xlink:href', 'assets/images/flags/' + d.codigo_pais + '.svg')
-                    .attr('data-indicator-score', d.puntaje)
+                    .attr('data-indicator-score', +d.puntaje)
                     .attr('data-country-code', d.codigo_pais)
                     .attr('data-country', d.pais)
                     .on('mouseover', function () {
@@ -313,11 +313,11 @@ var VisSimulator = (function () {
 
         _cruces.forEach(function (c) {
             c.izquierda
-            var score_left = d3.select('image.flag.' + c.izquierda).attr('data-indicator-score');
+            var score_left = Number.parseFloat(d3.select('image.flag.' + c.izquierda).attr('data-indicator-score'));
             var country_left = d3.select('image.flag.' + c.izquierda).attr('data-country-code');
             var country_name_left = d3.select('image.flag.' + c.izquierda).attr('data-country');
 
-            var score_right = d3.select('image.flag.' + c.derecha).attr('data-indicator-score');
+            var score_right = Number.parseFloat(d3.select('image.flag.' + c.derecha).attr('data-indicator-score'));
             var country_right = d3.select('image.flag.' + c.derecha).attr('data-country-code');
             var country_name_right = d3.select('image.flag.' + c.derecha).attr('data-country');
 
