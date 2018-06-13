@@ -164,6 +164,7 @@ div.grupo-H {
 
 g#popup-single, g#popup-vs {
     #pups-placa, #pupv-placa {
+      fill-opacity: 0.9;
       fill: #ffffff;
       stroke-width: 0.25px;
       stroke: #222222;
@@ -171,6 +172,22 @@ g#popup-single, g#popup-vs {
     text {
       fill: #222222;
     }
+}
+
+.social-icons {
+  img {
+    max-width: 32px;
+    transition: opacity 500ms;
+    opacity: 1;
+    &:hover {
+      transition: opacity 500ms;
+      opacity: 0.5;
+    }
+  }
+}
+
+.logo-footer img {
+  max-height: 64px;
 }
 
 

@@ -6965,9 +6965,21 @@ div.grupo-H {
   background-color: #FFC400; }
 
 g#popup-single #pups-placa, g#popup-single #pupv-placa, g#popup-vs #pups-placa, g#popup-vs #pupv-placa {
+  fill-opacity: 0.9;
   fill: #ffffff;
   stroke-width: 0.25px;
   stroke: #222222; }
 
 g#popup-single text, g#popup-vs text {
   fill: #222222; }
+
+.social-icons img {
+  max-width: 32px;
+  transition: opacity 500ms;
+  opacity: 1; }
+  .social-icons img:hover {
+    transition: opacity 500ms;
+    opacity: 0.5; }
+
+.logo-footer img {
+  max-height: 64px; }
