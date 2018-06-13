@@ -503,6 +503,7 @@ var VisSimulator = (function () {
 
                 publications_container.html(
                     publications_container.html() +
+                    '<div class="box">' +
                     '<div class="columns publication">' +
                     '  <div class="column">' +
                     '    <img src="assets/images/publicaciones/' + publicacion.image + '.jpg">' +
@@ -514,6 +515,7 @@ var VisSimulator = (function () {
                     '        <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>&nbsp;Enlace' +
                     '      </a>' +
                     '    </p>' +
+                    '  </div>' +
                     '  </div>' +
                     '</div>');
             });
