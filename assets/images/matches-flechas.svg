@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="matches-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 765 765" style="enable-background:new 0 0 765 765;" xml:space="preserve">
+
+<defs  xmlns="http://www.w3.org/1999/xhtml">
+	<pattern id="ARG" patternUnits="userSpaceOnUse" width="80" height="80">
+    	<image xlink:href="/assets/images/flags/ARG.svg" x="-40" y="0" width="80" height="80" />
+	</pattern>
+	<clipPath id="popup-single-flag-clip">
+		<path d="M40-94v80c22.1,0,40-17.9,40-40S62.1-94,40-94z" />
+	</clipPath>
+
+</defs>
+
+<style type="text/css">
+	.st0{fill:none;stroke:#292929;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0.5,5;}
+	.st1{fill:none;stroke:#353535;stroke-miterlimit:10;}
+	.st2{fill:#353535;}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:12px;}
+	.st6{fill:#3182BD;}
+	.st7{fill:#FFFFFF;}
+	.st8{font-size:14px;}
+	.st9{font-size:13.9944px;}
+	.st10{font-size:13.9958px;}
+	.st11{fill:#6BAED6;}
+	.st12{font-size:14.0042px;}
+	.st13{fill:#6DA154;}
+	.st14{font-size:11.9946px;}
+	.st15{fill:#465C42;}
+	.st16{font-size:13.9965px;}
+	.st17{fill:#FFC400;}
+	.st18{font-size:13.9951px;}
+	.st19{fill:#FF9100;}
+	.st20{font-size:14.0035px;}
+	.st21{fill:#961A1A;}
+	.st22{fill:#DB1A1A;}
+	.st23{font-size:14.0049px;}
+	.st24{fill:#444444;}
+	.st25{fill:#6BAED6;}
+	.st26{enable-background:new    ;}
+</style>
+<g id="circulos-ronda">
+	<circle class="st0" cx="382.7" cy="311.2" r="220"/>
+	<circle class="st0" cx="382.7" cy="311.2" r="259.9"/>
+	<circle class="st0" cx="382.8" cy="311.2" r="122.8"/>
+	<circle class="st0" cx="382.7" cy="311.2" r="171.6"/>
+</g>
+<g id="lineas">
+	<g id="lineas-octavos">
+		<g>
+			<g>
+				<path class="st1" d="M215.7,112.8c13.6,19.3,11.2,58.1,20.5,76"/>
+				<g>
+					<polygon class="st2" points="240.3,194.5 231.3,188.7 236,188.3 237.9,184 					"/>
+				</g>
+				<g>
+					<g>
+						<path class="st1" d="M210.2,174.7c12.2,17.3-7.2,71.6-4.5,95.5"/>
+						<g>
+							<polygon class="st2" points="207.5,277 201.2,268.3 205.7,269.6 209.1,266.4 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M170.9,250.7c17.9,7.5,41.3-46.3,58.5-48"/>
+				<g>
+					<polygon class="st2" points="236,205.2 225.3,206.2 228.7,203 227.7,198.4 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M123.9,292.7c26.9,0.7,40.7-12.9,69.2-6.5"/>
+				<g>
+					<polygon class="st2" points="199.9,288.1 189.3,289.5 192.6,286.2 191.3,281.7 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M150.2,427.3c22.3-8.1,54.9-4.9,73.9-11.1"/>
+				<g>
+					<polygon class="st2" points="230.5,413.3 223,421 223.6,416.3 219.8,413.5 					"/>
+				</g>
+				<g>
+					<g>
+						<path class="st1" d="M205.5,448.5c20-7.2,64.4,23.6,87.1,25.7"/>
+						<g>
+							<polygon class="st2" points="299.7,473.7 290,478.3 292.1,474.1 289.5,470.2 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st1" d="M275.4,503.1c0.3-17.8-34.3-54.8-36.9-73.9"/>
+						<g>
+							<polygon class="st2" points="239.5,422.2 242.5,432.5 238.7,429.7 234.4,431.6 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M304.9,559c7.4-21.2-1.6-52.4,4.8-71.3"/>
+				<g>
+					<polygon class="st2" points="312.8,481.3 312.3,492 309.6,488.2 304.9,488.6 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M549.7,112.8c-13.6,19.3-11.2,58.1-20.5,76"/>
+				<g>
+					<polygon class="st2" points="525.1,194.5 527.5,184 529.5,188.3 534.1,188.7 					"/>
+				</g>
+				<g>
+					<g>
+						<path class="st1" d="M556,174.7c-12.2,17.3,6.6,71.7,3.8,95.5"/>
+						<g>
+							<polygon class="st2" points="558,277 556.5,266.4 559.9,269.6 564.4,268.3 							"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M594.8,252.3c-18.1,7.9-41.9-50.3-59.3-52.1"/>
+				<g>
+					<polygon class="st2" points="528.9,202.7 537.1,195.8 536.1,200.4 539.6,203.6 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M641.9,292.7c-26.9,0.7-41-12.9-69.5-6.5"/>
+				<g>
+					<polygon class="st2" points="565.6,288.1 574.2,281.7 572.9,286.2 576.2,289.5 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M615.2,427.5c-21.8-8-53.7-4.9-72.4-11.1"/>
+				<g>
+					<polygon class="st2" points="536.4,413.5 547.1,413.8 543.4,416.6 543.9,421.2 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M460.6,559c-7.4-21.2,1.6-52.4-4.8-71.3"/>
+				<g>
+					<polygon class="st2" points="452.7,481.3 460.6,488.6 455.9,488.2 453.2,492 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M556.1,447.5c-19.9-7.2-64.6,30.6-86.5,30.1"/>
+				<g>
+					<polygon class="st2" points="462.8,475.6 473.4,474.1 470.1,477.5 471.4,482 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M490.5,503.3c-8-20.1,36.1-50.1,35.2-74.6"/>
+				<g>
+					<polygon class="st2" points="524.1,421.8 530.1,430.7 525.6,429.2 522.1,432.4 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="lineas-cuartos">
+		<g>
+			<g>
+				<path class="st1" d="M246.7,204c7,13.9-5.3,62.7,2.5,93.8"/>
+				<g>
+					<polygon class="st2" points="251.3,304.6 244.5,296.2 249.1,297.3 252.3,293.9 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M211.1,288.1c19.6,6.1,19.9,115.7,81.5,123.5"/>
+				<g>
+					<polygon class="st2" points="299.7,412 289.4,415.4 292.1,411.5 290,407.3 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M242.5,409.2c5.2-7.8-1.2-59,2.6-76.6"/>
+				<g>
+					<polygon class="st2" points="248.9,326.6 247.4,337.3 245.1,333.2 240.4,333.2 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M312.8,468.3c8.5-12.5-3.1-22.5-0.1-34.4"/>
+				<g>
+					<polygon class="st2" points="315.8,427.5 315.4,438.2 312.7,434.4 308,434.9 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M518.7,204c-6.4,13.8,4.8,61.9-2.2,92.8"/>
+				<g>
+					<polygon class="st2" points="514.5,303.6 513.2,292.9 516.5,296.3 521.1,295.1 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M554.4,288.1c-19.5,6.1-19.9,115-81.3,122.8"/>
+				<g>
+					<polygon class="st2" points="466,411.3 475.6,406.5 473.6,410.8 476.2,414.6 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M522.9,409.2c-5.3-7.9,1.2-59.6-2.7-77.3"/>
+				<g>
+					<polygon class="st2" points="516.3,326 524.9,332.5 520.2,332.6 518,336.7 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M452.7,468.3c-8.5-12.2,3-22,0.1-33.7"/>
+				<g>
+					<polygon class="st2" points="449.7,428.2 457.5,435.6 452.8,435.2 450.1,439 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="lineas-semis">
+		<g>
+			<g>
+				<path class="st1" d="M313.2,413.3c16.5-23.8,74.2-6.4,104.5-40.8"/>
+				<g>
+					<polygon class="st2" points="422,366.9 419,377.2 417.3,372.9 412.6,372.2 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st3" d="M452.2,413.3c-16.2-22.8-72.8-6.2-102.5-39"/>
+				<g>
+					<polygon points="345.3,368.7 354.8,373.9 350.1,374.6 348.5,379 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M506.1,317.5c-11.7,16.6-27.2,30.2-41.7,33.7"/>
+				<g>
+					<polygon class="st2" points="457.4,352.2 466.7,346.7 464.9,351.1 467.8,354.8 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M259.3,315.6c11.8,16.7,31.2,32.4,46.8,36.4"/>
+				<g>
+					<polygon class="st2" points="313.1,352.9 302.6,355.4 305.6,351.8 303.9,347.4 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="lineas-final">
+		<g>
+			<g>
+				<path class="st1" d="M333.1,352.9c14-8.6,40.8-20.2,44.9-46.7"/>
+				<g>
+					<polygon class="st2" points="378.5,299.2 381.7,309.5 377.8,306.8 373.6,308.8 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M432.4,352.9c-13.6-8.6-39.4-20.2-43.4-46.7"/>
+				<g>
+					<polygon class="st2" points="388.5,299.2 393.4,308.8 389.1,306.8 385.3,309.5 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="group-a">
+	<text transform="matrix(0.5477 0.8367 -0.8367 0.5477 190.5939 14.9363)" class="st2 st4 st5">GRUPO A</text>
+	<path class="st6" d="M214.8,89.1c-4.1,3.1-10.4,1.7-13.9-3.1l-52.2-64.2c-3.6-4.8-2.1-11.9,3.3-15.9l4.5-3.3
+		c5.4-4,12.6-3.4,16.2,1.4l46.7,68.3c3.6,4.8,3.1,11.2-1,14.2L214.8,89.1z"/>
+	<g>
+		<text transform="matrix(0.5977 0.8017 -0.8017 0.5977 156.6013 13.9735)" class="st7 st4 st8">Arabia Saud.</text>
+	</g>
+	<path class="st6" d="M192.5,107.9c-3.8,3.5-10.1,2.8-14.2-1.6l-58.6-58.4c-4-4.4-3.3-11.6,1.6-16.2l4.1-3.8
+		c4.9-4.5,12.2-4.7,16.2-0.3l53.5,63.1c4,4.4,4.3,10.8,0.5,14.3L192.5,107.9z"/>
+	<g>
+		<text transform="matrix(0.6782 0.7348 -0.7348 0.6782 155.4101 70.14)" class="st7 st4 st9">Egipto</text>
+	</g>
+	<path class="st6" d="M172.3,128.9c-3.4,3.9-9.8,3.8-14.3-0.1l-64.4-52c-4.5-3.9-4.5-11.2-0.1-16.2l3.7-4.2c4.4-5,11.6-5.9,16.1-2
+		l59.8,57.1c4.5,3.9,5.4,10.3,2,14.1L172.3,128.9z"/>
+	<g>
+		<text transform="matrix(0.7513 0.6599 -0.6599 0.7513 135.2741 98.5635)" class="st7 st4 st10">Rusia</text>
+	</g>
+	<g>
+		<path id="Uruguay-bg" class="st6" d="M154.4,151.8c-3,4.2-9.3,4.8-14.2,1.4l-69.4-45c-4.9-3.4-5.7-10.7-1.8-16.1l3.2-4.6
+			c3.9-5.5,11-7.1,15.8-3.7l65.5,50.6c4.9,3.4,6.4,9.6,3.4,13.9L154.4,151.8z"/>
+		<text transform="matrix(0.8162 0.5778 -0.5778 0.8162 98.554 113.9799)" class="st7 st4 st8">Uruguay</text>
+	</g>
+</g>
+<g id="group-b">
+	<text transform="matrix(0.9409 0.3386 -0.3386 0.9409 50.934 189.7676)" class="st2 st4 st5">GRUPO B</text>
+	<path class="st11" d="M114.9,234.9c-1.4,4.9-7.3,7.6-13,5.9l-80.2-19.9c-5.7-1.7-8.8-8.2-7-14.7l1.6-5.4c1.9-6.4,8-10.3,13.8-8.6
+		l78.4,26.5c5.7,1.7,9.2,7,7.7,12L114.9,234.9z"/>
+	<g>
+		<text transform="matrix(0.9598 0.2806 -0.2806 0.9598 57.2177 220.1904)" class="st4 st8">España</text>
+	</g>
+	<path class="st11" d="M108.4,263.3c-0.9,5.1-6.4,8.3-12.3,7.3l-81.9-11.4c-5.9-1.1-9.7-7.3-8.5-13.9l1-5.5
+		c1.2-6.6,6.9-11.1,12.8-10l80.7,18.1c5.9,1.1,9.9,6,9,11.1L108.4,263.3z"/>
+	<g>
+		<text transform="matrix(0.9839 0.1787 -0.1787 0.9839 70.951 258.6364)" class="st4 st8">Irán</text>
+	</g>
+	<path class="st11" d="M104.9,292.2c-0.4,5.1-5.5,8.9-11.5,8.5l-82.7-2.8c-5.9-0.4-10.4-6.2-9.9-12.9l0.4-5.6
+		c0.5-6.7,5.7-11.7,11.7-11.3l82.2,9.6c5.9,0.4,10.5,5,10.1,10.1L104.9,292.2z"/>
+	<g>
+		<text transform="matrix(0.9972 7.490000e-02 -7.490000e-02 0.9972 22.3669 287.5234)" class="st4 st8">Marruecos</text>
+	</g>
+	<path class="st11" d="M104.4,321.3c0.2,5.2-4.6,9.5-10.5,9.7l-82.5,5.9c-6,0.2-11-5.1-11.2-11.8L0,319.5
+		c-0.2-6.7,4.5-12.3,10.4-12.4l82.7,1c6-0.2,10.9,3.9,11.1,9L104.4,321.3z"/>
+	<g>
+		<text transform="matrix(0.9996 -2.979083e-02 2.979083e-02 0.9996 35.7338 325.1057)" class="st4 st12">Portugal</text>
+	</g>
+</g>
+<g id="group-c">
+	<path class="st13" d="M134.8,438c2.3,4.6-0.1,10.5-5.5,13.2L57,491.4c-5.3,2.7-12.1,0-15.1-6l-2.5-5c-3-6-1.1-13,4.2-15.7
+		l75.4-34.1c5.3-2.7,11.5-1.1,13.8,3.5L134.8,438z"/>
+	<path class="st13" d="M149.4,463.2c2.8,4.3,1,10.5-4,13.7l-67.7,47.6c-5,3.2-12,1.3-15.6-4.4l-3-4.7c-3.6-5.6-2.5-12.8,2.5-16
+		l71.4-41.8c5-3.2,11.3-2.3,14.1,2L149.4,463.2z"/>
+	<g>
+		<text transform="matrix(0.8415 -0.5403 0.5403 0.8415 100.9345 497.5319)" class="st4 st8">Francia</text>
+	</g>
+	<text transform="matrix(0.9552 -0.2958 0.2958 0.9552 44.3486 413.5437)" class="st2 st4 st14">GRUPO C</text>
+	<path class="st13" d="M122.9,411.4c1.8,4.8-1.2,10.4-6.8,12.6L40,456.4c-5.6,2.1-12-1.3-14.4-7.5l-2-5.2
+		c-2.4-6.3,0.2-13.1,5.8-15.2l78.5-26c5.6-2.1,11.6,0.1,13.4,4.9L122.9,411.4z"/>
+	<g>
+		<text transform="matrix(0.9354 -0.3536 0.3536 0.9354 59.3392 437.8315)" class="st4 st8">Australia</text>
+	</g>
+	<g>
+		<text transform="matrix(0.8933 -0.4494 0.4494 0.8933 61.3611 477.706)" class="st4 st8">Dinamarca</text>
+	</g>
+	<path class="st13" d="M166.6,486.8c3.2,4,2.1,10.3-2.6,14l-62.4,54.4c-4.7,3.7-11.8,2.5-16-2.7l-3.5-4.4
+		c-4.2-5.2-3.8-12.5,0.8-16.2l66.7-49c4.7-3.7,11-3.5,14.3,0.5L166.6,486.8z"/>
+	<g>
+		<text transform="matrix(0.7804 -0.6253 0.6253 0.7804 134.5334 515.4935)" class="st4 st8">Perú</text>
+	</g>
+</g>
+<g id="group-d">
+	<text transform="matrix(0.5849 -0.8111 0.8111 0.5849 174.2498 596.1574)" class="st2 st4 st5">GRUPO D</text>
+	<path class="st15" d="M235.5,547.6c4.4,2.8,5.3,9.1,2.1,14.1l-41.3,71.7c-3.2,5-10.4,6.2-16,2.7l-4.7-3c-5.7-3.6-7.7-10.6-4.5-15.6
+		l47.1-68c3.2-5,9.3-6.9,13.7-4.1L235.5,547.6z"/>
+	<g>
+		<text transform="matrix(0.5343 -0.8453 0.8453 0.5343 195.6468 612.7526)" class="st7 st4 st8">Argentina</text>
+	</g>
+	<path class="st15" d="M261,561.7c4.6,2.3,6.2,8.5,3.6,13.8l-33.5,75.6c-2.6,5.3-9.6,7.3-15.7,4.3l-5-2.5c-6-3-8.7-9.7-6.1-15.1
+		l39.7-72.6c2.6-5.3,8.5-7.8,13.2-5.6L261,561.7z"/>
+	<g>
+		<text transform="matrix(0.443 -0.8965 0.8965 0.443 234.7037 617.2404)" class="st7 st4 st8">Croacia</text>
+	</g>
+	<path class="st15" d="M287.9,573c4.8,1.8,7.1,7.8,5,13.4l-25.5,78.7c-2.1,5.6-8.8,8.2-15.1,5.9l-5.2-1.9c-6.3-2.3-9.7-8.7-7.6-14.3
+		l31.9-76.3c2.1-5.6,7.7-8.7,12.5-6.9L287.9,573z"/>
+	<g>
+		<text transform="matrix(0.3468 -0.9379 0.9379 0.3468 267.557 632.335)" class="st7 st4 st16">Islandia</text>
+	</g>
+	<path class="st15" d="M315.7,581.5c5,1.3,7.9,7,6.4,12.8L305,675.2c-1.5,5.8-7.9,9.1-14.4,7.5l-5.4-1.4c-6.5-1.7-10.6-7.7-9.1-13.5
+		l23.7-79.2c1.5-5.8,6.7-9.4,11.7-8.2L315.7,581.5z"/>
+	<g>
+		<text transform="matrix(0.2469 -0.969 0.969 0.2469 303.6952 638.8351)" class="st7 st4 st10">Nigeria</text>
+	</g>
+</g>
+<g id="group-h">
+	<text transform="matrix(0.5368 -0.8437 0.8437 0.5368 541.2665 63.9451)" class="st2 st4 st5">GRUPO H</text>
+	<path class="st17" d="M547.1,86.5c-4.1-3.1-4.6-9.5-1-14.2L592.7,4c3.6-4.8,10.8-5.4,16.2-1.4l4.5,3.3c5.4,4,6.8,11.1,3.3,15.9
+		L564.6,86c-3.6,4.8-9.8,6.2-13.9,3.1L547.1,86.5z"/>
+	<g>
+		<text transform="matrix(0.6105 -0.792 0.792 0.6105 559.7705 81.3612)" class="st4 st8">Colombia</text>
+	</g>
+	<path class="st17" d="M569.7,104.9c-3.8-3.5-3.6-9.9,0.5-14.3l53.5-63.1c4-4.4,11.3-4.3,16.2,0.3l4.1,3.8
+		c4.9,4.5,5.6,11.8,1.6,16.2L587,106.2c-4,4.4-10.4,5.1-14.2,1.6L569.7,104.9z"/>
+	<g>
+		<text transform="matrix(0.6899 -0.7239 0.7239 0.6899 582.9919 101.221)" class="st4 st8">Japón</text>
+	</g>
+	<path class="st17" d="M590.2,125.6c-3.4-3.9-2.5-10.2,1.9-14.1l59.8-57.1c4.5-3.9,11.7-3.1,16.1,2l3.7,4.2c4.4,5,4.4,12.3-0.1,16.2
+		l-64.3,52c-4.5,3.9-10.9,4-14.3,0.1L590.2,125.6z"/>
+	<g>
+		<text transform="matrix(0.7618 -0.6478 0.6478 0.7618 603.8543 123.3041)" class="st4 st8">Polonia</text>
+	</g>
+	<path class="st17" d="M608.5,148.3c-3-4.2-1.4-10.4,3.4-13.9l65.5-50.6c4.9-3.4,11.9-1.8,15.8,3.6l3.2,4.6
+		c3.9,5.5,3.1,12.7-1.8,16.1l-69.4,45c-4.9,3.4-11.2,2.8-14.2-1.4L608.5,148.3z"/>
+	<g>
+		<text transform="matrix(0.8253 -0.5646 0.5646 0.8253 622.2305 147.3643)" class="st4 st18">Senegal</text>
+	</g>
+</g>
+<g id="group-g">
+	<text transform="matrix(0.9365 -0.3507 0.3507 0.9365 658.2488 209.2069)" class="st2 st4 st5">GRUPO G</text>
+	<path class="st19" d="M649.2,230.7c-1.4-4.9,2-10.3,7.7-12l78.4-26.5c5.7-1.7,11.9,2.2,13.8,8.6l1.6,5.4c1.9,6.4-1.2,13-7,14.7
+		l-80.3,19.9c-5.7,1.7-11.5-1-13-5.9L649.2,230.7z"/>
+	<g>
+		<text transform="matrix(0.9642 -0.2652 0.2652 0.9642 662.481 234.3212)" class="st4 st8">Bélgica</text>
+	</g>
+	<path class="st19" d="M656.2,259c-0.9-5.1,3.1-10.1,9-11.1l80.7-18.2c5.9-1.1,11.6,3.4,12.8,10l1,5.5c1.2,6.6-2.6,12.8-8.5,13.9
+		l-81.9,11.4c-5.9,1.1-11.4-2.2-12.3-7.3L656.2,259z"/>
+	<g>
+		<text transform="matrix(0.9866 -0.1629 0.1629 0.9866 669.0574 263.864)" class="st4 st10">Inglaterra*</text>
+	</g>
+	<path class="st19" d="M660.2,287.9c-0.4-5.1,4.1-9.7,10.1-10.1l82.2-9.6c5.9-0.4,11.2,4.6,11.7,11.3l0.4,5.6
+		c0.5,6.7-3.9,12.5-9.9,12.9l-82.7,2.8c-5.9,0.4-11.1-3.4-11.5-8.5L660.2,287.9z"/>
+	<g>
+		<text transform="matrix(0.9983 -5.888529e-02 5.888529e-02 0.9983 672.3746 294.0923)" class="st4 st20">Panamá</text>
+	</g>
+	<path class="st19" d="M661.1,317c0.2-5.2,5.1-9.2,11.1-9l82.7-1c6,0.2,10.6,5.7,10.4,12.4l-0.2,5.6c-0.2,6.7-5.2,12-11.2,11.8
+		l-82.5-5.9c-6-0.2-10.7-4.5-10.5-9.7L661.1,317z"/>
+	<g>
+		<text transform="matrix(0.999 4.568577e-02 -4.568577e-02 0.999 672.5759 324.4644)" class="st4 st12">Túnez</text>
+	</g>
+</g>
+<g id="group-f">
+	<text transform="matrix(0.959 0.2835 -0.2835 0.959 664.2131 395.5334)" class="st2 st4 st5">GRUPO F</text>
+	<path class="st21" d="M644,407.3c1.8-4.8,7.8-7,13.4-4.9l78.5,26c5.6,2.1,8.2,8.9,5.8,15.2l-2,5.2c-2.4,6.3-8.8,9.6-14.4,7.5
+		l-76.1-32.4c-5.6-2.1-8.6-7.7-6.8-12.6L644,407.3z"/>
+	<g>
+		<text transform="matrix(0.9296 0.3685 -0.3685 0.9296 652.5016 418.088)" class="st7 st4 st8">Alemania</text>
+	</g>
+	<path class="st21" d="M632.6,434.1c2.3-4.6,8.5-6.2,13.8-3.5l75.4,34.1c5.3,2.7,7.2,9.7,4.2,15.7l-2.5,5c-3,6-9.8,8.7-15.1,6
+		l-72.3-40.2c-5.3-2.7-7.8-8.6-5.5-13.2L632.6,434.1z"/>
+	<g>
+		<text transform="matrix(0.886 0.4636 -0.4636 0.886 639.8047 445.719)" class="st7 st4 st10">México</text>
+	</g>
+	<path class="st21" d="M618.4,459.5c2.8-4.3,9.1-5.2,14.1-2l71.4,41.8c5,3.2,6.2,10.4,2.5,16l-3,4.7c-3.6,5.6-10.6,7.6-15.6,4.4
+		l-67.7-47.5c-5-3.2-6.8-9.4-4-13.7L618.4,459.5z"/>
+	<g>
+		<text transform="matrix(0.8327 0.5537 -0.5537 0.8327 624.4207 471.9696)" class="st7 st4 st8">Rep. Corea</text>
+	</g>
+	<path class="st21" d="M601.6,483.3c3.2-4,9.6-4.3,14.3-0.5l66.7,49c4.7,3.7,5,11,0.9,16.2l-3.5,4.4c-4.2,5.2-11.4,6.4-16,2.7
+		l-62.4-54.3c-4.7-3.7-5.8-10-2.6-14L601.6,483.3z"/>
+	<g>
+		<text transform="matrix(0.7703 0.6377 -0.6377 0.7703 606.2923 496.3652)" class="st7 st4 st8">Suecia</text>
+	</g>
+</g>
+<g id="group-e">
+	<text transform="matrix(0.5953 0.8035 -0.8035 0.5953 556.8023 547.8459)" class="st2 st4 st5">GRUPO E</text>
+	<path class="st22" d="M533.6,545.2c4.4-2.8,10.5-0.9,13.7,4.1l47.1,68c3.2,5,1.2,12-4.5,15.6l-4.7,3c-5.7,3.6-12.8,2.4-16-2.6
+		l-41.3-71.7c-3.2-5-2.2-11.4,2.1-14.1L533.6,545.2z"/>
+	<g>
+		<text transform="matrix(0.5207 0.8538 -0.8538 0.5207 533.8488 559.0066)" class="st7 st4 st23">Brasil</text>
+	</g>
+	<path class="st22" d="M508.3,559.7c4.6-2.3,10.5,0.2,13.2,5.5l39.7,72.6c2.6,5.3-0.1,12.1-6.1,15.1l-5,2.5c-6,3-13,1-15.7-4.3
+		l-33.6-75.6c-2.6-5.3-1-11.5,3.6-13.8L508.3,559.7z"/>
+	<g>
+		<text transform="matrix(0.4286 0.9035 -0.9035 0.4286 507.1299 573.5067)" class="st7 st4 st8">Costa Rica</text>
+	</g>
+	<path class="st22" d="M481.7,571.5c4.8-1.8,10.4,1.3,12.5,6.9l31.9,76.3c2.1,5.6-1.3,12-7.6,14.3l-5.2,1.9
+		c-6.3,2.3-13.1-0.3-15.1-5.9l-25.5-78.7c-2.1-5.6,0.2-11.6,5-13.4L481.7,571.5z"/>
+	<g>
+		<text transform="matrix(0.3318 0.9434 -0.9434 0.3318 479.0391 585.0614)" class="st7 st4 st23">Serbia</text>
+	</g>
+	<path class="st22" d="M453.9,580.4c5-1.3,10.2,2.4,11.7,8.2l23.8,79.2c1.5,5.8-2.6,11.8-9.1,13.5l-5.4,1.4
+		c-6.5,1.7-12.9-1.7-14.4-7.5l-17.1-80.9c-1.5-5.8,1.4-11.5,6.4-12.8L453.9,580.4z"/>
+	<g>
+		<text transform="matrix(0.2314 0.9729 -0.9729 0.2314 449.9672 593.6256)" class="st7 st4 st12">Suiza</text>
+	</g>
+</g>
+<g id="knockout-16">
+	<circle id="H2" class="st17" cx="555.8" cy="174.7" r="10"/>
+	<circle id="H1" class="st17" cx="549.8" cy="112.8" r="10"/>
+	<circle id="G2" class="st19" cx="594.8" cy="253" r="10"/>
+	<circle id="G1" class="st19" cx="641.9" cy="292.8" r="10"/>
+	<circle id="F2" class="st21" cx="556.4" cy="447.7" r="10"/>
+	<circle id="F1" class="st21" cx="616.3" cy="427.5" r="10"/>
+	<circle id="E2" class="st22" cx="490.4" cy="503.3" r="10"/>
+	<circle id="E1" class="st22" cx="460.6" cy="559" r="10"/>
+	<circle id="D2" class="st15" cx="275" cy="503.3" r="10"/>
+	<circle id="D1" class="st15" cx="304.9" cy="559" r="10"/>
+	<circle id="C2" class="st13" cx="205.6" cy="447.4" r="10"/>
+	<circle id="C1" class="st13" cx="149.2" cy="427.7" r="10"/>
+	<circle id="B2" class="st11" cx="171.6" cy="251.2" r="10"/>
+	<circle id="B1" class="st11" cx="123.1" cy="292.9" r="10"/>
+	<circle id="A2" class="st6" cx="210.2" cy="174.7" r="10"/>
+	<circle id="A1" class="st6" cx="215.7" cy="112.8" r="10"/>
+</g>
+<g id="knockout-8">
+	<circle id="g16" class="st2" cx="248.4" cy="204" r="12.5"/>
+	<circle id="g20" class="st2" cx="212.4" cy="288.5" r="12.5"/>
+	<circle id="g17" class="st2" cx="242.5" cy="409.7" r="12.5"/>
+	<circle id="g21" class="st2" cx="312.1" cy="468.8" r="12.5"/>
+	<circle id="g23" class="st2" cx="517" cy="204" r="12.5"/>
+	<circle id="g19" class="st2" cx="553.1" cy="288.5" r="12.5"/>
+	<circle id="g22" class="st2" cx="523.9" cy="409.3" r="12.5"/>
+	<circle id="g18" class="st2" cx="452.3" cy="468.8" r="12.5"/>
+</g>
+<g id="knockout-4">
+	<circle id="g24" class="st2" cx="260.1" cy="316.7" r="15"/>
+	<circle id="g26" class="st2" cx="314.6" cy="413.3" r="15"/>
+	
+	<circle id="g27" class="st2" cx="506.1" cy="316" r="15"/>
+	<circle id="g25" class="st2" cx="451" cy="413.3" r="15"/>
+</g>
+<g id="knockout-2">
+	<circle id="g28" class="st24" cx="333.1" cy="352.9" r="20"/>
+	<circle id="g29" class="st24" cx="437.5" cy="354.3" r="20"/>
+</g>
+<g id="knockout-1">
+	<circle id="g30" class="st24" cx="382.7" cy="269.2" r="30"/>
+</g>
+<g id="stage-texts">
+	<g>
+		<text transform="matrix(1 0 0 1 319.0505 43.921)" class="st4 st8">Octavos 1º de grupo</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 319.0506 84.8521)" class="st4 st8">Octavos 2º de grupo</text>
+	</g>
+	<text transform="matrix(1 0 0 1 358.1893 133.8005)" class="st4 st8">Cuartos</text>
+	<text transform="matrix(1 0 0 1 363.2517 181.8005)" class="st4 st8">Semis</text>
+	<text transform="matrix(1 0 0 1 355.3607 234.0051)" class="st4 st8">Ganador</text>
+	<text transform="matrix(1 0 0 1 367.5278 357.3341)" class="st4 st8">Final</text>
+</g>
+
+<g id="popup-single">
+	<path id="pups-placa" d="M72.1-55.1H-70.1c-2.2,0-3.9,1.2-3.9,2.7v42.8c0,1.5,1.7,2.7,3.9,2.7h66.3l4,6.8l4-6.8h67.9 C74.3-6.8,76-8,76-9.6v-42.8C76-53.9,74.3-55.1,72.1-55.1z"/>
+	<rect x="-68.2" y="-48.4" width="35" height="35" style="stroke-width: 1px; stroke: #222222;"/>
+	<image id="pups-flag" x="-68.2" y="-48.4" width="35" height="35" />
+	<g>
+		<text id="pups-pais-nombre" transform="matrix(1 0 0 1 -26.1455 -36.7876)" style="font-family:'OpenSans'; font-size:13.9824px;">Arabia Saudita</text>
+		<text id="pups-pais-puntaje" transform="matrix(1 0 0 1 -26.1455 -18.6201)" style="font-family:'OpenSans'; font-weight: 700; font-size:18.6432px;">168</text>
+	</g>
+</g>
+
+<g id="popup-vs">
+	<path id="pupv-placa" d="M143.1-110.6h-284.3c-4.4,0-7.9,1.1-7.9,2.6v41c0,1.5,3.5,2.6,7.9,2.6H-8.6l7.9,6.6l7.9-6.6h135.8 c4.4,0,7.9-1.1,7.9-2.6v-41C151-109.4,147.5-110.6,143.1-110.6z"/>
+	<g id="g1">
+		<text id="g1-pais-nombre" transform="matrix(1 0 0 1 -104.5 -93.4543)" style="font-family:'OpenSans'; font-size:13.9824px; text-anchor: start;">Arabia Saudita</text>
+		<text id="g1-pais-puntaje" transform="matrix(1 0 0 1 -104.5 -75.2868)" style="font-family:'OpenSans'; font-weight: 700; font-size:18.6432px; text-anchor: start;">168</text>
+		<rect id="g1-flag" x="-144.5" y="-105.1" width="35" height="35" style="stroke-width: 1px; stroke: #222222;"/>
+		<image id="g1-flag" x="-144.5" y="-105.1" width="35" height="35"/>
+	</g>
+	<g id="g-2">
+		<text id="g2-pais-nombre" transform="matrix(1 0 0 1 105.8 -93.4543)" style="font-family:'OpenSans'; font-size:13.9824px; text-anchor: end;">Arabia Saudita</text>
+		<text id="g2-pais-puntaje" transform="matrix(1 0 0 1 105.8 -75.2868)" style="font-family:'OpenSans'; font-weight: 700; font-size:18.6432px; text-anchor: end;">168</text>
+		<rect x="110.8" y="-105.1" width="35" height="35" style="stroke-width: 1px; stroke: #222222;"/>
+		<image id="g2-flag" x="110.8" y="-105.1" width="35" height="35"/>
+	</g>
+	<text transform="matrix(1 0 0 1 -10.1974 -70.9343)" style="font-family:'OpenSans'; font-size:18px;">vs.</text>
+</g>
+
+</svg>

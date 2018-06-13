@@ -1,0 +1,225 @@
+﻿PAIS,INDICADOR,RANKING_GLOBAL,RANKING,PUNTAJE,CODIGO_INDICADOR,CODIGO_PAIS,GRUPO
+Islandia,Acceso y calidad en salud,1,1,93.6,ACSAL,ISL,D
+Suiza,Acceso y calidad en salud,2,1,91.8,ACSAL,SUI,E
+Suecia,Acceso y calidad en salud,3,1,90.5,ACSAL,SWE,F
+Australia,Acceso y calidad en salud,4,1,89.8,ACSAL,AUS,C
+España,Acceso y calidad en salud,5,1,89.6,ACSAL,ESP,B
+Japón,Acceso y calidad en salud,6,1,89,ACSAL,JPN,H
+Francia,Acceso y calidad en salud,7,2,87.9,ACSAL,FRA,C
+Bélgica,Acceso y calidad en salud,8,1,87.9,ACSAL,BEL,G
+Alemania,Acceso y calidad en salud,9,2,86.4,ACSAL,GER,F
+Rep. Corea,Acceso y calidad en salud,10,3,85.8,ACSAL,KOR,F
+Dinamarca,Acceso y calidad en salud,11,3,85.7,ACSAL,DEN,C
+Inglaterra*,Acceso y calidad en salud,12,2,84.6,ACSAL,ENG,G
+Portugal,Acceso y calidad en salud,13,2,84.5,ACSAL,POR,B
+Croacia,Acceso y calidad en salud,14,2,81.6,ACSAL,CRO,D
+Polonia,Acceso y calidad en salud,15,2,79.6,ACSAL,POL,H
+Arabia Saudita,Acceso y calidad en salud,16,1,79.4,ACSAL,KSA,A
+Serbia,Acceso y calidad en salud,17,2,75.4,ACSAL,SRB,E
+Costa Rica,Acceso y calidad en salud,18,3,72.9,ACSAL,CRC,E
+Uruguay,Acceso y calidad en salud,19,2,72,ACSAL,URU,A
+Rusia,Acceso y calidad en salud,20,3,71.7,ACSAL,RUS,A
+Irán,Acceso y calidad en salud,21,3,71.1,ACSAL,IRN,B
+Túnez,Acceso y calidad en salud,22,3,70.1,ACSAL,TUN,G
+Perú,Acceso y calidad en salud,23,4,69.6,ACSAL,PER,C
+Argentina,Acceso y calidad en salud,24,3,68.5,ACSAL,ARG,D
+Colombia,Acceso y calidad en salud,25,3,67.8,ACSAL,COL,H
+Brasil,Acceso y calidad en salud,26,4,64.9,ACSAL,BRA,E
+Panamá,Acceso y calidad en salud,27,4,64.4,ACSAL,PAN,G
+México,Acceso y calidad en salud,28,4,62.6,ACSAL,MEX,F
+Marruecos,Acceso y calidad en salud,29,4,61.3,ACSAL,MAR,B
+Egipto,Acceso y calidad en salud,30,4,61,ACSAL,EGY,A
+Nigeria,Acceso y calidad en salud,31,4,51.3,ACSAL,NIG,D
+Senegal,Acceso y calidad en salud,32,4,44.4,ACSAL,SEN,H
+Bélgica,Apertura comercial,1,1,167,APCOM,BEL,G
+Suiza,Apertura comercial,2,1,114,APCOM,SUI,E
+Serbia,Apertura comercial,3,2,109,APCOM,SRB,E
+Polonia,Apertura comercial,4,1,101,APCOM,POL,H
+Croacia,Apertura comercial,5,1,100,APCOM,CRO,D
+Dinamarca,Apertura comercial,6,1,99,APCOM,DEN,C
+Panamá,Apertura comercial,7,2,94,APCOM,PAN,G
+Islandia,Apertura comercial,8,2,92,APCOM,ISL,D
+Túnez,Apertura comercial,9,3,91,APCOM,TUN,G
+Alemania,Apertura comercial,10,1,84,APCOM,GER,F
+Suecia,Apertura comercial,11,2,84,APCOM,SWE,F
+Marruecos,Apertura comercial,12,1,80,APCOM,MAR,B
+Portugal,Apertura comercial,13,2,79,APCOM,POR,B
+México,Apertura comercial,14,3,78,APCOM,MEX,F
+Rep. Corea,Apertura comercial,15,4,78,APCOM,KOR,F
+Senegal,Apertura comercial,16,2,74,APCOM,SEN,H
+Costa Rica,Apertura comercial,17,3,64,APCOM,CRC,E
+España,Apertura comercial,18,3,63,APCOM,ESP,B
+Arabia Saudita,Apertura comercial,19,1,61,APCOM,KSA,A
+Francia,Apertura comercial,20,2,61,APCOM,FRA,C
+Inglaterra*,Apertura comercial,21,4,58,APCOM,ENG,G
+Rusia,Apertura comercial,22,2,46,APCOM,RUS,A
+Perú,Apertura comercial,23,3,45,APCOM,PER,C
+Uruguay,Apertura comercial,24,3,42,APCOM,URU,A
+Australia,Apertura comercial,25,4,40,APCOM,AUS,C
+Irán,Apertura comercial,26,4,39,APCOM,IRN,B
+Japón,Apertura comercial,27,3,36,APCOM,JPN,H
+Colombia,Apertura comercial,28,4,35,APCOM,COL,H
+Egipto,Apertura comercial,29,4,30,APCOM,EGY,A
+Argentina,Apertura comercial,30,3,26,APCOM,ARG,D
+Brasil,Apertura comercial,31,4,25,APCOM,BRA,E
+Nigeria,Apertura comercial,32,4,21,APCOM,NIG,D
+Islandia,Brecha de género,1,1,0.88,BRGEN,ISL,D
+Suecia,Brecha de género,2,1,0.81,BRGEN,SWE,F
+Dinamarca,Brecha de género,3,1,0.78,BRGEN,DEN,C
+Francia,Brecha de género,4,2,0.78,BRGEN,FRA,C
+Alemania,Brecha de género,5,2,0.78,BRGEN,GER,F
+Inglaterra*,Brecha de género,6,1,0.77,BRGEN,ENG,G
+Suiza,Brecha de género,7,1,0.76,BRGEN,SUI,E
+España,Brecha de género,8,1,0.75,BRGEN,ESP,B
+Bélgica,Brecha de género,9,2,0.74,BRGEN,BEL,G
+Portugal,Brecha de género,10,2,0.73,BRGEN,POR,B
+Argentina,Brecha de género,11,2,0.73,BRGEN,ARG,D
+Costa Rica,Brecha de género,12,2,0.73,BRGEN,CRC,E
+Serbia,Brecha de género,13,3,0.73,BRGEN,SRB,E
+Colombia,Brecha de género,14,1,0.73,BRGEN,COL,H
+Polonia,Brecha de género,15,2,0.73,BRGEN,POL,H
+Australia,Brecha de género,16,3,0.72,BRGEN,AUS,C
+Perú,Brecha de género,17,4,0.72,BRGEN,PER,C
+Panamá,Brecha de género,18,3,0.72,BRGEN,PAN,G
+Uruguay,Brecha de género,19,1,0.71,BRGEN,URU,A
+Croacia,Brecha de género,20,3,0.71,BRGEN,CRO,D
+Rusia,Brecha de género,21,2,0.7,BRGEN,RUS,A
+México,Brecha de género,22,3,0.69,BRGEN,MEX,F
+Brasil,Brecha de género,23,4,0.68,BRGEN,BRA,E
+Senegal,Brecha de género,24,3,0.68,BRGEN,SEN,H
+Japón,Brecha de género,25,4,0.66,BRGEN,JPN,H
+Rep. Corea,Brecha de género,26,4,0.65,BRGEN,KOR,F
+Túnez,Brecha de género,27,4,0.65,BRGEN,TUN,G
+Nigeria,Brecha de género,28,4,0.64,BRGEN,NIG,D
+Egipto,Brecha de género,29,3,0.61,BRGEN,EGY,A
+Marruecos,Brecha de género,30,3,0.59,BRGEN,MAR,B
+Arabia Saudita,Brecha de género,31,4,0.58,BRGEN,KSA,A
+Irán,Brecha de género,32,4,0.58,BRGEN,IRN,B
+Suiza,Educación,1,1,6.6,EDUCA,SUI,E
+Bélgica,Educación,2,1,6.4,EDUCA,BEL,G
+Islandia,Educación,3,1,6.2,EDUCA,ISL,D
+Japón,Educación,4,1,6.2,EDUCA,JPN,H
+Australia,Educación,5,1,6.1,EDUCA,AUS,C
+Alemania,Educación,6,1,6.1,EDUCA,GER,F
+Portugal,Educación,7,1,6,EDUCA,POR,B
+Inglaterra*,Educación,8,2,6,EDUCA,ENG,G
+Dinamarca,Educación,9,2,5.9,EDUCA,DEN,C
+Suecia,Educación,10,2,5.9,EDUCA,SWE,F
+Francia,Educación,11,3,5.8,EDUCA,FRA,C
+Rep. Corea,Educación,12,3,5.8,EDUCA,KOR,F
+Costa Rica,Educación,13,2,5.7,EDUCA,CRC,E
+Polonia,Educación,14,2,5.7,EDUCA,POL,H
+Rusia,Educación,15,1,5.6,EDUCA,RUS,A
+España,Educación,16,2,5.6,EDUCA,ESP,B
+Arabia Saudita,Educación,17,2,5.5,EDUCA,KSA,A
+Irán,Educación,18,3,5.5,EDUCA,IRN,B
+Croacia,Educación,19,2,5.5,EDUCA,CRO,D
+Serbia,Educación,20,3,5.4,EDUCA,SRB,E
+Túnez,Educación,21,3,5.3,EDUCA,TUN,G
+Argentina,Educación,22,3,5.2,EDUCA,ARG,D
+Uruguay,Educación,23,3,4.9,EDUCA,URU,A
+Marruecos,Educación,24,4,4.9,EDUCA,MAR,B
+Egipto,Educación,25,4,4.7,EDUCA,EGY,A
+México,Educación,26,4,4.7,EDUCA,MEX,F
+Panamá,Educación,27,4,4.7,EDUCA,PAN,G
+Colombia,Educación,28,3,4.5,EDUCA,COL,H
+Perú,Educación,29,4,4.4,EDUCA,PER,C
+Brasil,Educación,30,4,4.3,EDUCA,BRA,E
+Senegal,Educación,31,4,3,EDUCA,SEN,H
+Nigeria,Educación,32,4,1.9,EDUCA,NIG,D
+Dinamarca,Inclusión financiera,1,1,99.92,INFIN,DEN,C
+Suecia,Inclusión financiera,2,1,99.74,INFIN,SWE,F
+Australia,Inclusión financiera,3,2,99.52,INFIN,AUS,C
+Alemania,Inclusión financiera,4,2,99.14,INFIN,GER,F
+Bélgica,Inclusión financiera,5,1,98.64,INFIN,BEL,G
+Suiza,Inclusión financiera,6,1,98.43,INFIN,SUI,E
+Japón,Inclusión financiera,7,1,98.24,INFIN,JPN,H
+Inglaterra*,Inclusión financiera,8,2,96.37,INFIN,ENG,G
+Rep. Corea,Inclusión financiera,9,3,94.85,INFIN,KOR,F
+Francia,Inclusión financiera,10,3,94,INFIN,FRA,C
+Irán,Inclusión financiera,11,1,93.98,INFIN,IRN,B
+España,Inclusión financiera,12,2,93.76,INFIN,ESP,B
+Portugal,Inclusión financiera,13,3,92.34,INFIN,POR,B
+Polonia,Inclusión financiera,14,2,86.73,INFIN,POL,H
+Croacia,Inclusión financiera,15,1,86.14,INFIN,CRO,D
+Rusia,Inclusión financiera,16,1,75.76,INFIN,RUS,A
+Arabia Saudita,Inclusión financiera,17,2,71.7,INFIN,KSA,A
+Serbia,Inclusión financiera,18,2,71.44,INFIN,SRB,E
+Brasil,Inclusión financiera,19,3,70.04,INFIN,BRA,E
+Costa Rica,Inclusión financiera,20,4,67.84,INFIN,CRC,E
+Uruguay,Inclusión financiera,21,3,63.87,INFIN,URU,A
+Argentina,Inclusión financiera,22,2,48.71,INFIN,ARG,D
+Panamá,Inclusión financiera,23,3,46.49,INFIN,PAN,G
+Colombia,Inclusión financiera,24,3,45.76,INFIN,COL,H
+Perú,Inclusión financiera,25,4,42.6,INFIN,PER,C
+Senegal,Inclusión financiera,26,4,42.34,INFIN,SEN,H
+Nigeria,Inclusión financiera,27,3,39.67,INFIN,NIG,D
+México,Inclusión financiera,28,4,36.93,INFIN,MEX,F
+Túnez,Inclusión financiera,29,4,36.91,INFIN,TUN,G
+Egipto,Inclusión financiera,30,4,32.78,INFIN,EGY,A
+Marruecos,Inclusión financiera,31,4,28.64,INFIN,MAR,B
+Islandia,Inclusión financiera,32,4,,INFIN,ISL,D
+Suiza,Infraestructura,1,1,6.3,INFRA,SUI,E
+Japón,Infraestructura,2,1,6.3,INFRA,JPN,H
+Francia,Infraestructura,3,1,6.1,INFRA,FRA,C
+Rep. Corea,Infraestructura,4,1,6.1,INFRA,KOR,F
+Alemania,Infraestructura,5,2,6,INFRA,GER,F
+Inglaterra*,Infraestructura,6,1,6,INFRA,ENG,G
+España,Infraestructura,7,1,5.9,INFRA,ESP,B
+Portugal,Infraestructura,8,2,5.6,INFRA,POR,B
+Islandia,Infraestructura,9,1,5.6,INFRA,ISL,D
+Suecia,Infraestructura,10,3,5.6,INFRA,SWE,F
+Dinamarca,Infraestructura,11,2,5.5,INFRA,DEN,C
+Bélgica,Infraestructura,12,2,5.4,INFRA,BEL,G
+Australia,Infraestructura,13,3,5.3,INFRA,AUS,C
+Arabia Saudita,Infraestructura,14,1,5.2,INFRA,KSA,A
+Rusia,Infraestructura,15,2,4.9,INFRA,RUS,A
+Panamá,Infraestructura,16,3,4.9,INFRA,PAN,G
+Uruguay,Infraestructura,17,3,4.7,INFRA,URU,A
+Polonia,Infraestructura,18,2,4.7,INFRA,POL,H
+Croacia,Infraestructura,19,2,4.6,INFRA,CRO,D
+Irán,Infraestructura,20,3,4.4,INFRA,IRN,B
+Marruecos,Infraestructura,21,4,4.4,INFRA,MAR,B
+México,Infraestructura,22,4,4.3,INFRA,MEX,F
+Costa Rica,Infraestructura,23,2,4.2,INFRA,CRC,E
+Egipto,Infraestructura,24,4,4.1,INFRA,EGY,A
+Brasil,Infraestructura,25,3,4.1,INFRA,BRA,E
+Serbia,Infraestructura,26,4,4.1,INFRA,SRB,E
+Argentina,Infraestructura,27,3,3.9,INFRA,ARG,D
+Perú,Infraestructura,28,4,3.8,INFRA,PER,C
+Túnez,Infraestructura,29,4,3.8,INFRA,TUN,G
+Colombia,Infraestructura,30,3,3.8,INFRA,COL,H
+Senegal,Infraestructura,31,4,3.1,INFRA,SEN,H
+Nigeria,Infraestructura,32,4,2,INFRA,NIG,D
+Perú,Participación de la fuerza laboral,1,1,76.28,PALAB,PER,C
+Colombia,Participación de la fuerza laboral,2,1,70.27,PALAB,COL,H
+Suiza,Participación de la fuerza laboral,3,1,68.57,PALAB,SUI,E
+Panamá,Participación de la fuerza laboral,4,1,66.91,PALAB,PAN,G
+Australia,Participación de la fuerza laboral,5,2,64.89,PALAB,AUS,C
+Uruguay,Participación de la fuerza laboral,6,1,64.66,PALAB,URU,A
+Suecia,Participación de la fuerza laboral,7,1,63.99,PALAB,SWE,F
+Brasil,Participación de la fuerza laboral,8,2,63.84,PALAB,BRA,E
+Rusia,Participación de la fuerza laboral,9,2,63.83,PALAB,RUS,A
+Dinamarca,Participación de la fuerza laboral,10,3,63.31,PALAB,DEN,C
+Rep. Corea,Participación de la fuerza laboral,11,2,62.64,PALAB,KOR,F
+Inglaterra*,Participación de la fuerza laboral,12,2,62.35,PALAB,ENG,G
+México,Participación de la fuerza laboral,13,3,61.28,PALAB,MEX,F
+Alemania,Participación de la fuerza laboral,14,4,60.49,PALAB,GER,F
+Japón,Participación de la fuerza laboral,15,2,60.46,PALAB,JPN,H
+Argentina,Participación de la fuerza laboral,16,1,59.96,PALAB,ARG,D
+Costa Rica,Participación de la fuerza laboral,17,3,59.42,PALAB,CRC,E
+Portugal,Participación de la fuerza laboral,18,1,58.55,PALAB,POR,B
+España,Participación de la fuerza laboral,19,2,58.1,PALAB,ESP,B
+Senegal,Participación de la fuerza laboral,20,3,56.99,PALAB,SEN,H
+Polonia,Participación de la fuerza laboral,21,4,56.86,PALAB,POL,H
+Arabia Saudita,Participación de la fuerza laboral,22,3,55.89,PALAB,KSA,A
+Francia,Participación de la fuerza laboral,23,4,55.42,PALAB,FRA,C
+Nigeria,Participación de la fuerza laboral,24,2,55.15,PALAB,NIG,D
+Serbia,Participación de la fuerza laboral,25,4,53.87,PALAB,SRB,E
+Bélgica,Participación de la fuerza laboral,26,3,53.23,PALAB,BEL,G
+Croacia,Participación de la fuerza laboral,27,3,51.49,PALAB,CRO,D
+Marruecos,Participación de la fuerza laboral,28,3,49.09,PALAB,MAR,B
+Egipto,Participación de la fuerza laboral,29,4,47.85,PALAB,EGY,A
+Túnez,Participación de la fuerza laboral,30,4,47.06,PALAB,TUN,G
+Irán,Participación de la fuerza laboral,31,4,44.34,PALAB,IRN,B
+Islandia,Participación de la fuerza laboral,32,4,,PALAB,ISL,D

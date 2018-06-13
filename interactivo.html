@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url"                content="http://mundialdesaroollo.org" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Mundial del desarrollo" />
+    <meta property="og:description"        content="En el Mundial de Rusia, 32 países compiten para ser el mejor equipo de fútbol, pero ¿quién de ellos sería el campeón en desarrollo?" />
+    <meta property="og:image"              content="http://mundialdesarrollo.org/assets/images/fb-preview.jpg" />
+
+    <title>Mundial del desarrollo - Banco Interamericano de Desarrollo</title>
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=186484948641366&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- menu superior -->
+<section>
+
+    <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="assets/images/logo/bid-logo.png">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <div class="navbar-item">
+                    <a href="index.html">
+                        <small>MUNDIAL DEL DESARROLLO</small>
+                    </a>
+                </div>
+                <a class="navbar-item" href="interactivo.html">Interactivo</a>
+                <a class="navbar-item" href="metodologia.html">Metodología</a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="fb-share-button" data-href="http://mundialdesarrollo.org/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmundialdesarrollo.org%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                <img src="/assets/images/jugadores.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+
+
+                <p>En el Mundial de Rusia, 32 países compiten para ser el mejor equipo de
+                    fútbol, pero ¿quién de
+                    ellos sería el <strong class="has-text-link">campeón en desarrollo</strong>?</p>
+
+
+                <div>
+                    <label class="label">Selecciona un indicador de desarrollo</label>
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <span class="select">
+                                <select id="select-indicator" class="is-link">
+                                    <option value="NONE">--</option>
+                                    <option value="ACSAL">Acceso y calidad en salud</option>
+                                    <option value="APCOM">Apertura comercial</option>
+                                    <option value="BRGEN">Brecha de género</option>
+                                    <!--<option value="EDUCA">Educación</option>-->
+                                    <option value="INFIN">Inclusión financiera</option>
+                                    <option value="INFRA">Infraestructura</option>
+                                    <option value="PALAB">Participación de la fuerza laboral</option>
+                                </select>
+                            </span>
+                            <span class="icon is-small is-left">
+                              <i class="fas fa-chart-bar"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="columns is-hidden" id="tabs-selector">
+            <div class="column is-8 is-offset-2">
+                <div class="tabs is-centered">
+                    <ul>
+                        <li id="tab-groups-container" class="tab is-active" onclick="seleccionar_tab('groups-container');">
+                            <a>Fase de grupos</a>
+                        </li>
+                        <li id="tab-vis-container" class="tab" onclick="seleccionar_tab('vis-container');">
+                            <a>¿Quién ganaría?</a>
+                        </li>
+                        <li id="tab-global-container" class="tab" onclick="seleccionar_tab('global-container');">
+                            <a>Clasificación global</a>
+                        </li>
+                        <li id="tab-publications-container" class="tab" onclick="seleccionar_tab('publications-container');">
+                            <a>Publicaciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-hidden tab-container" id="info-container">
+            <div class="column is-8 is-offset-2">
+                <article class="message is-info">
+                    <div class="message-body">
+                        <p id="info-container-content"></p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="columns is-hidden tab-container" id="vis-container">
+            <div class="column is-8 is-offset-2">
+                <div id="vis-simulator"></div>
+            </div>
+        </div>
+
+        <div class="columns is-hidden tab-container" id="groups-container">
+            <div class="column is-8 is-offset-2">
+                <div class="columns" id="groups-container-content"></div>
+            </div>
+        </div>
+
+        <div class="columns is-hidden tab-container" id="global-container">
+            <div class="column is-8 is-offset-2">
+            </div>
+        </div>
+
+        <div class="columns is-hidden tab-container" id="publications-container">
+            <div class="column is-8 is-offset-2">
+                <div class="columns publication">
+                    <div class="column">
+                        <img src="/assets/images/publicaciones/8875.jpg">
+                    </div>
+                    <div class="column is-two-thirds">
+                        <p><strong>La priorización en salud paso a paso: Cómo articulan sus procesos México, Brasil y
+                            Colombia</strong>
+                            <br/>
+                            Este documento aborda la priorización en salud, los procesos que la integran, los actores
+                            que involucra y su relación con las diferentes políticas públicas que deben ser articuladas
+                            e implementadas de una manera armónica. Además, ofrece recomendaciones útiles para aquellos
+                            países que todavía no hayan iniciado sus procesos de priorización en salud o que estén en
+                            proceso de construirlos o mejorarlos.
+                        </p>
+                        <p>
+                            <a target="_blank" href="">
+                                <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>&nbsp;Enlace
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns is-hidden tab-container" id="source-container">
+            <div class="column is-8 is-offset-2">
+                <p id="source-container-content"></p>
+                <article class="message">
+                    <div class="message-body">
+                        <p>* Para Inglaterra se utilizaron los datos pertenecientes al Reino Unido.</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="/assets/scripts/app.js"></script>
+
+</body>
+</html>

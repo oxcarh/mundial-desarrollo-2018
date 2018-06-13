@@ -1,0 +1,29 @@
+{
+  "name": "w01",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oscar A. Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "d3": "^5.4.0",
+    "live-server": "^1.2.0",
+    "modularscale-sass": "^3.0.5"
+  },
+  "dependencies": {
+    "@types/d3": "^5.0.0",
+    "animate.css": "^3.6.1",
+    "bulma": "^0.7.1",
+    "bulma-divider": "^1.0.5",
+    "bulma-tooltip": "^1.0.5",
+    "normalize": "^0.3.1",
+    "normalize.css": "^8.0.0",
+    "npm": "^6.0.1",
+    "pym.js": "^1.3.2",
+    "sassline": "^2.1.2",
+    "typeplate-starter-kit": "^3.0.2"
+  }
+}
