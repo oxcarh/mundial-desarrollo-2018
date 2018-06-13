@@ -6894,7 +6894,7 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 #cover-body {
-  background: url("/assets/images/portada-2.svg") no-repeat 50% 50%; }
+  background: url("assets/images/portada-2.svg") no-repeat 50% 50%; }
 
 .balon-container {
   position: absolute;

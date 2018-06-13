@@ -101,7 +101,7 @@ var VisSimulator = (function () {
     var _load_data = function (fn) {
         console.log('_load_data');
 
-        d3.dsv(",", "/assets/data/ranking.csv", function (d) {
+        d3.dsv(",", "assets/data/ranking.csv", function (d) {
             return {
                 "grupo": d.GRUPO,
                 "pais": d.PAIS,
@@ -116,7 +116,7 @@ var VisSimulator = (function () {
             _ranking = data;
         });
 
-        d3.dsv(",", "/assets/data/cruces.csv", function (d) {
+        d3.dsv(",", "assets/data/cruces.csv", function (d) {
             return {
                 "izquierda": d.IZQUIERDA,
                 "derecha": d.DERECHA,
@@ -126,7 +126,7 @@ var VisSimulator = (function () {
             _cruces = data;
         });
 
-        d3.dsv(",", "/assets/data/indicadores.csv", function (d) {
+        d3.dsv(",", "assets/data/indicadores.csv", function (d) {
             return {
                 "indicador_codigo": d.INDICADOR_CODIGO,
                 "indicador_descripcion_breve": d.INDICADOR_DESC_BREVE,
@@ -138,7 +138,7 @@ var VisSimulator = (function () {
             _indicadores = data;
         });
 
-        d3.dsv(",", "/assets/data/publicaciones.csv", function (d) {
+        d3.dsv(",", "assets/data/publicaciones.csv", function (d) {
             return {
                 "titulo": d.TITULO,
                 "descripcion": d.DESCRIPCION,
@@ -156,7 +156,7 @@ var VisSimulator = (function () {
     var _load_matches = function () {
         console.log('_load_matches');
 
-        d3.text('/assets/images/matches-flechas.svg').then(function (text) {
+        d3.text('assets/images/matches-flechas.svg').then(function (text) {
             _container.html(text);
             _svg = d3.select('svg#matches-svg');
             _defs = d3.select('defs');
@@ -245,7 +245,6 @@ var VisSimulator = (function () {
                     .attr('y', cy - r)
                     .attr('width', r * 2)
                     .attr('height', r * 2)
-                    // .attr('xlink:href', '/assets/images/balon.svg')
                     .attr('clip-path', 'url(#clip-circle-' + id + ')');
 
             });
@@ -271,7 +270,7 @@ var VisSimulator = (function () {
 
                 var img = d3.select('image.flag.' + d.grupo + d.ranking);
 
-                img.attr('xlink:href', '/assets/images/flags/' + d.codigo_pais + '.svg')
+                img.attr('xlink:href', 'assets/images/flags/' + d.codigo_pais + '.svg')
                     .attr('data-indicator-score', d.puntaje)
                     .attr('data-country-code', d.codigo_pais)
                     .attr('data-country', d.pais)
@@ -282,7 +281,7 @@ var VisSimulator = (function () {
 
                         popup_single.select('text#pups-pais-nombre').html(d.pais);
                         popup_single.select('text#pups-pais-puntaje').html(d.puntaje);
-                        popup_single.select('image#pups-flag').attr('xlink:href', '/assets/images/flags-square/' + d.codigo_pais + '.svg');
+                        popup_single.select('image#pups-flag').attr('xlink:href', 'assets/images/flags-square/' + d.codigo_pais + '.svg');
 
                         var tooltipParent = popup_single.node().parentElement;
                         var matrix = this.getTransformToElement(tooltipParent)
@@ -329,7 +328,7 @@ var VisSimulator = (function () {
                 cn = country_name_right;
             }
             d3.select('image.flag.' + c.centro)
-                .attr('xlink:href', '/assets/images/flags/' + cc + '.svg')
+                .attr('xlink:href', 'assets/images/flags/' + cc + '.svg')
                 .attr('data-indicator-score', sc)
                 .attr('data-country-code', cc)
                 .attr('data-country', cn)
@@ -341,8 +340,8 @@ var VisSimulator = (function () {
                     popup_vs.select('text#g1-pais-puntaje').html(score_left);
                     popup_vs.select('text#g2-pais-puntaje').html(score_right);
 
-                    popup_vs.select('image#g1-flag').attr('xlink:href', '/assets/images/flags-square/' + country_left + '.svg');
-                    popup_vs.select('image#g2-flag').attr('xlink:href', '/assets/images/flags-square/' + country_right + '.svg');
+                    popup_vs.select('image#g1-flag').attr('xlink:href', 'assets/images/flags-square/' + country_left + '.svg');
+                    popup_vs.select('image#g2-flag').attr('xlink:href', 'assets/images/flags-square/' + country_right + '.svg');
 
                     var tooltipParent = popup_vs.node().parentElement;
                     var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("x") + +this.getAttribute("width") / 2, +this.getAttribute("y"));
@@ -396,7 +395,7 @@ var VisSimulator = (function () {
                 var tr = tbody.append('tr');
                 tr.append('td')
                     .style('width', '10%')
-                    .style('background-image', 'url(/assets/images/flags-square/' + d.codigo_pais + '.svg)')
+                    .style('background-image', 'url(assets/images/flags-square/' + d.codigo_pais + '.svg)')
                     .style('background-size', '70% 70%')
                     .style('background-position', '50% 50%')
                     .style('background-repeat', 'no-repeat');
@@ -439,7 +438,7 @@ var VisSimulator = (function () {
             tr.append('td').style('width', '10%').html(d.ranking_global);
             tr.append('td')
                 .style('width', '10%')
-                .style('background-image', 'url(/assets/images/flags-square/' + d.codigo_pais + '.svg)')
+                .style('background-image', 'url(assets/images/flags-square/' + d.codigo_pais + '.svg)')
                 .style('background-size', '70% 70%')
                 .style('background-position', '50% 50%')
                 .style('background-repeat', 'no-repeat');
@@ -500,7 +499,7 @@ var VisSimulator = (function () {
                     publications_container.html() +
                     '<div class="columns publication">' +
                     '  <div class="column">' +
-                    '    <img src="/assets/images/publicaciones/' + publicacion.image + '.jpg">' +
+                    '    <img src="assets/images/publicaciones/' + publicacion.image + '.jpg">' +
                     '  </div>' +
                     '  <div class="column is-two-thirds">' +
                     '    <p><strong>' + publicacion.titulo + '</strong><br/>' + publicacion.descripcion + '</p>' +
