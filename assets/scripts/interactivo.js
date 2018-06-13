@@ -313,18 +313,18 @@ var VisSimulator = (function () {
 
         _cruces.forEach(function (c) {
             c.izquierda
-            var score_left = d3.select('image.flag.' + c.izquierda).attr('data-indicator-score');
+            var score_left = Number.parseFloat(d3.select('image.flag.' + c.izquierda).attr('data-indicator-score'));
             var country_left = d3.select('image.flag.' + c.izquierda).attr('data-country-code');
             var country_name_left = d3.select('image.flag.' + c.izquierda).attr('data-country');
 
-            var score_right = d3.select('image.flag.' + c.derecha).attr('data-indicator-score');
+            var score_right = Number.parseFloat(d3.select('image.flag.' + c.derecha).attr('data-indicator-score'));
             var country_right = d3.select('image.flag.' + c.derecha).attr('data-country-code');
             var country_name_right = d3.select('image.flag.' + c.derecha).attr('data-country');
 
             var sc;
             var cc;
             var cn;
-            if (+score_left >= +score_right) {
+            if (score_left >= score_right) {
                 sc = score_left;
                 cc = country_left;
                 cn = country_name_left;
