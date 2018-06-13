@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url"                content="http://mundialdesaroollo.org" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Mundial del desarrollo" />
+    <meta property="og:description"        content="En el Mundial de Rusia, 32 países compiten para ser el mejor equipo de fútbol, pero ¿quién de ellos sería el campeón en desarrollo?" />
+    <meta property="og:image"              content="http://mundialdesarrollo.org/assets/images/fb-preview.jpg" />
+
     <title>Mundial del desarrollo - Banco Interamericano de Desarrollo</title>
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <link rel="stylesheet" href="assets/styles/app.css">
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=186484948641366&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <section>
 
@@ -33,6 +49,11 @@
                 </div>
                 <a class="navbar-item" href="interactivo.html">Interactivo</a>
                 <a class="navbar-item" href="metodologia.html">Metodología</a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="fb-share-button" data-href="http://mundialdesarrollo.org/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmundialdesarrollo.org%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                </div>
             </div>
         </div>
     </nav>
