@@ -277,7 +277,7 @@ var VisSimulator = (function () {
                 var img = d3.select('image.flag.' + d.grupo + d.ranking);
 
                 img.attr('xlink:href', 'assets/images/flags/' + d.codigo_pais + '.svg')
-                    .attr('data-indicator-score', d.puntaje)
+                    .attr('data-indicator-score', +d.puntaje)
                     .attr('data-country-code', d.codigo_pais)
                     .attr('data-country', d.pais)
                     .on('mouseover', function () {
@@ -324,7 +324,7 @@ var VisSimulator = (function () {
             var sc;
             var cc;
             var cn;
-            if (score_left >= score_right) {
+            if (+score_left >= +score_right) {
                 sc = score_left;
                 cc = country_left;
                 cn = country_name_left;
