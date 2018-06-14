@@ -6984,3 +6984,21 @@ g#popup-single text, g#popup-vs text {
 
 .logo-footer img {
   max-height: 48px; }
+
+.modal-card-head .modal-card-title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 0; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .modal-card-head .modal-card-title {
+      font-size: calc( 19px + 2 * ( ( 100vw - 768px) / 256 )); } }
+  @media (min-width: 1024px) and (max-width: 1216px) {
+    .modal-card-head .modal-card-title {
+      font-size: calc( 21px + 5 * ( ( 100vw - 1024px) / 192 )); } }
+  @media (min-width: 1216px) and (max-width: 1408px) {
+    .modal-card-head .modal-card-title {
+      font-size: calc( 26px + 0 * ( ( 100vw - 1216px) / 192 )); } }
+  @media (min-width: 1408px) {
+    .modal-card-head .modal-card-title {
+      font-size: 26px; } }

@@ -22,7 +22,7 @@ $.when($.ready).then(function () {
 });
 
 var seleccionar_tab = function (tab) {
-    console.log('seleccionar_tab', tab);
+
     d3.selectAll('.tab-container').classed('is-hidden', true)
     d3.selectAll('.tab').classed('is-active', false);
     d3.select('#' + tab).classed('is-hidden', false);
@@ -37,6 +37,14 @@ var seleccionar_tab = function (tab) {
     }
 
 };
+
+var cerrar_modal = function(indicador_codigo) {
+    d3.select('.modal.metodologia.' + indicador_codigo).classed('is-active', false);
+}
+
+var abrir_modal = function(indicador_codigo) {
+    d3.select('.modal.metodologia.' + indicador_codigo).classed('is-active', true);
+}
 
 var VisSimulator = (function () {
 
@@ -64,7 +72,7 @@ var VisSimulator = (function () {
     // CONSTRUCTOR
 
     function Vis(container_id) {
-        console.log(container_id);
+
         _container_id = container_id;
         _container = d3.select('#' + _container_id);
         _bbox = document.getElementById(_container_id).getBoundingClientRect();
@@ -96,15 +104,11 @@ var VisSimulator = (function () {
     };
 
     var _draw = function () {
-        console.log('_draw');
-        // _create_svg_container();
-        // _resize_svg();
+
         _load_matches();
-        // _resize_svg();
     };
 
     var _load_data = function (fn) {
-        console.log('_load_data');
 
         d3.dsv(",", "assets/data/ranking.csv", function (d) {
             return {
@@ -159,7 +163,6 @@ var VisSimulator = (function () {
     };
 
     var _load_matches = function () {
-        console.log('_load_matches');
 
         d3.text('assets/images/matches-flechas.svg').then(function (text) {
             _container.html(text);
@@ -203,7 +206,6 @@ var VisSimulator = (function () {
     };
 
     var _initial_animation = function () {
-        console.log('_initial_animation');
 
         _svg.transition()
             .duration(750)
@@ -214,7 +216,6 @@ var VisSimulator = (function () {
     };
 
     var _load_images = function () {
-        console.log('_load_images');
 
         var ids = ['g#knockout-16', 'g#knockout-8', 'g#knockout-4', 'g#knockout-2', 'g#knockout-1'];
 
@@ -466,8 +467,8 @@ var VisSimulator = (function () {
                 .style('background-size', '70% 70%')
                 .style('background-position', '50% 50%')
                 .style('background-repeat', 'no-repeat');
-            tr.append('td').style('width', '40%').html(d.pais);
-            tr.append('td').style('width', '40%').html(d.puntaje)
+            tr.append('td').style('width', '50%').html(d.pais);
+            tr.append('td').style('width', '30%').html(d.puntaje)
 
         })
     };
@@ -503,7 +504,7 @@ var VisSimulator = (function () {
             d3.select('#info-container-content')
                 .html('')
                 .append('p')
-                .html(indicador.indicador_descripcion_breve + ' <a class="tooltip" data-tooltip="Ir a la metodología" target="_blank" href="metodologia.html#' + indicador.indicador_codigo + '">Más información.</a>');
+                .html(indicador.indicador_descripcion_breve + ' <a class="tooltip" data-tooltip="Ir a la metodología" onclick="abrir_modal(\'' + indicador.indicador_codigo + '\')">Más información.</a>');
 
             d3.select('#source-container-content')
                 .html('')

@@ -191,4 +191,12 @@ g#popup-single, g#popup-vs {
   max-height: 48px;
 }
 
+.modal-card-head {
 
+  .modal-card-title {
+    @include ms-respond(font-size, 1);
+    font-weight: 700;
+    line-height: ms(2);
+    margin-bottom: 0;
+  }
+}
