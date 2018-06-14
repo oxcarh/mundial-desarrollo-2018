@@ -6,6 +6,13 @@ SVGElement.prototype.getTransformToElement = SVGElement.prototype.getTransformTo
 
 // Global variables
 var g_vis_simulator;
+d3.formatDefaultLocale({
+    decimal: ",",
+    thousands: ".",
+    grouping: 3,
+    currency: "$"
+});
+var fmt = d3.format('.2f');
 
 $.when($.ready).then(function () {
     g_vis_simulator = new VisSimulator('vis-simulator');
@@ -276,7 +283,7 @@ var VisSimulator = (function () {
                     .on('mouseover', function() {
 
                         popup_single.select('text#pups-pais-nombre').html(d.pais);
-                        popup_single.select('text#pups-pais-puntaje').html(d.puntaje);
+                        popup_single.select('text#pups-pais-puntaje').html(fmt(d.puntaje));
                         popup_single.select('image#pups-flag').attr('xlink:href', 'assets/images/flags-square/' + d.codigo_pais + '.svg');
 
                         var tooltipParent = popup_single.node().parentElement;
@@ -342,8 +349,11 @@ var VisSimulator = (function () {
                     popup_vs.select('text#g1-pais-nombre').html(country_name_left);
                     popup_vs.select('text#g2-pais-nombre').html(country_name_right);
 
-                    popup_vs.select('text#g1-pais-puntaje').html(score_left);
-                    popup_vs.select('text#g2-pais-puntaje').html(score_right);
+                    popup_vs.select('text#g1-pais-puntaje').html(fmt(score_left));
+                    popup_vs.select('text#g2-pais-puntaje').html(fmt(score_right));
+
+                    popup_vs.select('text#g1-pais-puntaje').html(fmt(score_left));
+                    popup_vs.select('text#g2-pais-puntaje').html(fmt(score_right));
 
                     popup_vs.select('image#g1-flag').attr('xlink:href', 'assets/images/flags-square/' + country_left + '.svg');
                     popup_vs.select('image#g2-flag').attr('xlink:href', 'assets/images/flags-square/' + country_right + '.svg');
@@ -414,7 +424,7 @@ var VisSimulator = (function () {
                     .style('background-position', '50% 50%')
                     .style('background-repeat', 'no-repeat');
                 tr.append('td').style('width', '50%').html(d.pais);
-                tr.append('td').style('width', '40%').html(d.puntaje)
+                tr.append('td').style('width', '40%').html(d.puntaje);
 
             })
         });
