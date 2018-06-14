@@ -8,19 +8,11 @@ SVGElement.prototype.getTransformToElement = SVGElement.prototype.getTransformTo
 var g_vis_simulator;
 
 $.when($.ready).then(function () {
-    console.log("Document ready");
-
+    g_vis_simulator = new VisSimulator('vis-simulator');
     $('#select-indicator').on('change', function () {
         g_vis_simulator.update_indicator($('#select-indicator').val());
     });
-
-    instantiate_vis_simulator();
 });
-
-var instantiate_vis_simulator = function () {
-    console.log('instantiate_vis_simulator');
-    g_vis_simulator = new VisSimulator('vis-simulator');
-};
 
 var seleccionar_tab = function (tab) {
     console.log('seleccionar_tab', tab);
