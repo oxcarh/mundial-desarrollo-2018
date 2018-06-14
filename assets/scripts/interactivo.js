@@ -269,12 +269,10 @@ var VisSimulator = (function () {
                 var img = d3.select('image.flag.' + d.grupo + d.ranking);
 
                 img.attr('xlink:href', 'assets/images/flags/' + d.codigo_pais + '.svg')
+                    .classed(d.codigo_pais, true)
                     .attr('data-indicator-score', +d.puntaje)
                     .attr('data-country-code', d.codigo_pais)
                     .attr('data-country', d.pais)
-                    .on('mouseover', function () {
-
-                    })
                     .on('mouseover', function() {
 
                         popup_single.select('text#pups-pais-nombre').html(d.pais);
@@ -287,12 +285,21 @@ var VisSimulator = (function () {
                         popup_single.attr("transform", "translate(" + (matrix.e+10) + "," + (matrix.f) + ")");
                         popup_single.transition()
                             .style('opacity', 1);
+
+                        //d3.selectAll('image.flag').transition().style('opacity', 0.1);
+                        //d3.selectAll('image.flag.' + d.codigo_pais).transition().style('opacity', 1);
+
+                        //d3.selectAll('path.country').transition().style('opacity', 0.1);
+                        //d3.selectAll('path.country.' + d.codigo_pais).transition().style('opacity', 1);
                     })
                     .on('mouseout', function() {
                         popup_single
                             .attr('transform', 'translate(-100, -100)')
                             .transition()
                             .style('opacity', 0);
+
+                        //d3.selectAll('image.flag').transition().style('opacity', 1);
+                        //d3.selectAll('path.country').transition().style('opacity', 1);
                     });
 
 
@@ -326,12 +333,12 @@ var VisSimulator = (function () {
                 cn = country_name_right;
             }
             d3.select('image.flag.' + c.centro)
+                .classed(cc, true)
                 .attr('xlink:href', 'assets/images/flags/' + cc + '.svg')
                 .attr('data-indicator-score', sc)
                 .attr('data-country-code', cc)
                 .attr('data-country', cn)
                 .on('mouseover', function() {
-
                     popup_vs.select('text#g1-pais-nombre').html(country_name_left);
                     popup_vs.select('text#g2-pais-nombre').html(country_name_right);
 
@@ -345,12 +352,21 @@ var VisSimulator = (function () {
                     var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("x") + +this.getAttribute("width") / 2, +this.getAttribute("y"));
                     popup_vs.attr("transform", "translate(" + (matrix.e) + "," + (matrix.f+57) + ")");
                     popup_vs.transition().style('opacity', 1);
+
+                    //d3.selectAll('image.flag').transition().style('opacity', 0.1);
+                    //d3.selectAll('image.flag.' + cc).transition().style('opacity', 1);
+
+                    //d3.selectAll('path.country').transition().style('opacity', 0.1);
+                    //d3.selectAll('path.country.' + cc).transition().style('opacity', 1);
                 })
                 .on('mouseout', function() {
                     popup_vs
                         .attr('transform', 'translate(-100, -100)')
                         .transition()
                         .style('opacity', 0);
+
+                    //d3.selectAll('image.flag').transition().style('opacity', 1);
+                    //d3.selectAll('path.country').transition().style('opacity', 1);
                 });
         });
     };
