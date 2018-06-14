@@ -7002,3 +7002,6 @@ g#popup-single text, g#popup-vs text {
   @media (min-width: 1408px) {
     .modal-card-head .modal-card-title {
       font-size: 26px; } }
+
+.no-margin {
+  margin: 0 !important; }

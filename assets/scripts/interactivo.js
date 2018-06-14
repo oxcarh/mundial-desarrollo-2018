@@ -504,12 +504,19 @@ var VisSimulator = (function () {
             d3.select('#info-container-content')
                 .html('')
                 .append('p')
-                .html(indicador.indicador_descripcion_breve + ' <a class="tooltip" data-tooltip="Ir a la metodología" onclick="abrir_modal(\'' + indicador.indicador_codigo + '\')">Más información.</a>');
+                .html(indicador.indicador_descripcion_breve);
 
-            d3.select('#source-container-content')
-                .html('')
+            d3.select('#info-container-content')
                 .append('p')
-                .html('Fuente: <a class="tooltip" data-tooltip="' +indicador.fuente_url + '" target="_blank" href="' + indicador.fuente_url + '">' + indicador.fuente + '</a>');
+                .classed('no-margin', true)
+                .html(
+                    '<a class="button is-primary tooltip" data-tooltip="Metodología" onclick="abrir_modal(\'' + indicador.indicador_codigo + '\')">\n' +
+                    '    <span class="icon">\n' +
+                    '      <i class="fa fa-info-circle"></i>\n' +
+                    '    </span>\n' +
+                    '    <span>Más información</span>\n' +
+                    '  </a>')
+                //.html('<span class="button is-primary tooltip" data-tooltip="Ir a la metodología" onclick="abrir_modal(\'' + indicador.indicador_codigo + '\')">Más información</span>');
 
             var publicaciones = _publicaciones.filter(function (d) {
                 return d.indicador_codigo === indicator_code;
