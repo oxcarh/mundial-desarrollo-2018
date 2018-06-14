@@ -6915,7 +6915,8 @@ div#vis-simulator {
   margin-top: 20px; }
 
 svg {
-  opacity: 0; }
+  opacity: 0;
+  width: 100%; }
   svg circle {
     fill-opacity: 0; }
   svg image.flag {
