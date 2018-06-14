@@ -65,7 +65,7 @@ var VisSimulator = (function () {
         _height = _width * 1.5;
         _padding = 10;
 
-        this.render();
+        this.renderizar();
     }
 
     /*
@@ -456,7 +456,7 @@ var VisSimulator = (function () {
 
     // PUBLIC METHODS
     Vis.prototype = {
-        render: function () {
+        renderizar: function () {
             _delete_vis();
             _load_data(_draw);
         },
