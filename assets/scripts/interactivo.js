@@ -284,7 +284,7 @@ var VisSimulator = (function () {
                     .on('mouseover', function() {
 
                         popup_single.select('text#pups-pais-nombre').html(d.pais);
-                        popup_single.select('text#pups-pais-puntaje').html(fmt(d.puntaje));
+                        popup_single.select('text#pups-pais-puntaje').html(d.puntaje);
                         popup_single.select('image#pups-flag').attr('xlink:href', 'assets/images/flags-square/' + d.codigo_pais + '.svg');
 
                         var tooltipParent = popup_single.node().parentElement;
@@ -350,11 +350,8 @@ var VisSimulator = (function () {
                     popup_vs.select('text#g1-pais-nombre').html(country_name_left);
                     popup_vs.select('text#g2-pais-nombre').html(country_name_right);
 
-                    popup_vs.select('text#g1-pais-puntaje').html(fmt(score_left));
-                    popup_vs.select('text#g2-pais-puntaje').html(fmt(score_right));
-
-                    popup_vs.select('text#g1-pais-puntaje').html(fmt(score_left));
-                    popup_vs.select('text#g2-pais-puntaje').html(fmt(score_right));
+                    popup_vs.select('text#g1-pais-puntaje').html(score_left);
+                    popup_vs.select('text#g2-pais-puntaje').html(score_right);
 
                     popup_vs.select('image#g1-flag').attr('xlink:href', 'assets/images/flags-square/' + country_left + '.svg');
                     popup_vs.select('image#g2-flag').attr('xlink:href', 'assets/images/flags-square/' + country_right + '.svg');
