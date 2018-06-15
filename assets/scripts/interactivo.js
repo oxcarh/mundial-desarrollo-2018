@@ -492,6 +492,7 @@ var VisSimulator = (function () {
             if (d3.select('#info-container').classed('is-hidden')) d3.select('#info-container').classed('is-hidden', false);
             if (d3.select('#source-container').classed('is-hidden')) d3.select('#source-container').classed('is-hidden', false);
             if (d3.select('#tab-groups-container').classed('is-active')) d3.select('#groups-container').classed('is-hidden', false);
+            if (d3.select('#subscribe-container').classed('is-hidden')) d3.select('#subscribe-container').classed('is-hidden', false);
             _calculate_winner(indicator_code)
 
             var indicador = _indicadores.filter(function (d) {
@@ -507,7 +508,7 @@ var VisSimulator = (function () {
                 .append('p')
                 .classed('no-margin', true)
                 .html(
-                    '<a class="button is-primary tooltip" data-tooltip="Metodología" onclick="abrir_modal(\'' + indicador.indicador_codigo + '\')">\n' +
+                    '<a class="button is-primary" onclick="abrir_modal(\'' + indicador.indicador_codigo + '\')">\n' +
                     '    <span class="icon">\n' +
                     '      <i class="fa fa-info-circle"></i>\n' +
                     '    </span>\n' +
