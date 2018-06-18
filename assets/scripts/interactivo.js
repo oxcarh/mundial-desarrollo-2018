@@ -19,6 +19,10 @@ $.when($.ready).then(function () {
     $('#select-indicator').on('change', function () {
         g_vis_simulator.update_indicator($('#select-indicator').val());
     });
+
+    if(isIE()) {
+        d3.select('.modal.advertencia').classed('is-active', true);
+    }
 });
 
 var seleccionar_tab = function (tab) {
@@ -38,6 +42,18 @@ var seleccionar_tab = function (tab) {
 
 var cerrar_modal = function(indicador_codigo) {
     d3.select('.modal.metodologia.' + indicador_codigo).classed('is-active', false);
+}
+
+function isIE() {
+    var ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+    var msie = ua.indexOf('MSIE '); // IE 10 or older
+    var trident = ua.indexOf('Trident/'); //IE 11
+
+    return (msie > 0 || trident > 0);
+};
+
+var cerrar_aviso = function() {
+    d3.select('.modal.advertencia').classed('is-active', false);
 }
 
 var abrir_modal = function(indicador_codigo) {
@@ -171,7 +187,7 @@ var VisSimulator = (function () {
     };
 
     var _show_circles = function (fn) {
-        var t = d3.transition().duration(0).ease(d3.easeLinear);
+        var t = d3.transition().duration(100).ease(d3.easeLinear);
         d3.selectAll('g#knockout-16 > circle')
             .transition(t)
             .style('fill-opacity', 1)
@@ -195,7 +211,7 @@ var VisSimulator = (function () {
     }
 
     var _show_lines = function () {
-        var t = d3.transition().duration(750).ease(d3.easeLinear);
+        var t = d3.transition().ease(d3.easeLinear);
         d3.selectAll('g#lineas-octavos > path').transition(t).style('stroke-opacity', 1);
         d3.selectAll('g#lineas-cuartos > path').transition(t).style('stroke-opacity', 1);
         d3.selectAll('g#lineas-semis > path').transition(t).style('stroke-opacity', 1);
@@ -204,11 +220,7 @@ var VisSimulator = (function () {
     };
 
     var _initial_animation = function () {
-
-        _svg.transition()
-            .duration(750)
-            .style('opacity', 1);
-
+        _svg.transition().duration(300).style('opacity', 1);
         $('#select-indicator').prop('disabled', true);
         _show_circles(_show_lines);
     };
