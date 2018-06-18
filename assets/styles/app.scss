@@ -42,6 +42,13 @@ h2 {
   margin-bottom: ms(0);
 }
 
+h3 {
+  @include ms-respond(font-size, 0);
+  font-weight: 700;
+  line-height: ms(1);
+  margin-bottom: ms(0);
+}
+
 p {
   @include ms-respond(font-size, 0);
   margin-bottom: ms(0);
@@ -135,7 +142,11 @@ div.grupo-X {
 }
 
 #source-container {
-  margin-top: 35px;
+  // margin-top: 35px;
+  @include ms-respond(font-size, 0);
+  font-weight: 400;
+  line-height: ms(1);
+  color: #888888;
 }
 
 div.grupo-A {

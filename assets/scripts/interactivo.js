@@ -30,10 +30,8 @@ var seleccionar_tab = function (tab) {
     d3.select('#source-container').classed('is-hidden', false);
     d3.select('#tab-' + tab).classed('is-active', true);
 
-    if (tab === 'publications-container') {
-        d3.select('#source-container').classed('is-hidden', true);
-    } else {
-        d3.select('#source-container').classed('is-hidden', false);
+    if(d3.select('#publications-container').classed('is-hidden')) {
+        d3.select('#publications-container').classed('is-hidden', false)
     }
 
 };
@@ -493,6 +491,11 @@ var VisSimulator = (function () {
             if (d3.select('#source-container').classed('is-hidden')) d3.select('#source-container').classed('is-hidden', false);
             if (d3.select('#tab-groups-container').classed('is-active')) d3.select('#groups-container').classed('is-hidden', false);
             if (d3.select('#subscribe-container').classed('is-hidden')) d3.select('#subscribe-container').classed('is-hidden', false);
+
+            if(d3.select('#publications-container').classed('is-hidden')) {
+                d3.select('#publications-container').classed('is-hidden', false)
+            }
+
             _calculate_winner(indicator_code)
 
             var indicador = _indicadores.filter(function (d) {
@@ -522,6 +525,10 @@ var VisSimulator = (function () {
 
             var publications_container = d3.select('#publications-container > div');
             publications_container.html('');
+
+
+            publications_container.append('h3').html('¿Cómo pueden los países mejorar sus indicadores de desarrollo?');
+            publications_container.append('p').html('En estas publicaciones y blogs descubrirás proyectos, iniciativas y soluciones para que los países de América Latina y el Caribe se conviertan en campeones del desarrollo. ');
 
             publicaciones.forEach(function (publicacion) {
 

@@ -6874,6 +6874,24 @@ h2 {
     h2 {
       font-size: 26px; } }
 
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    h3 {
+      font-size: calc( 16px + 0 * ( ( 100vw - 768px) / 256 )); } }
+  @media (min-width: 1024px) and (max-width: 1216px) {
+    h3 {
+      font-size: calc( 16px + 0 * ( ( 100vw - 1024px) / 192 )); } }
+  @media (min-width: 1216px) and (max-width: 1408px) {
+    h3 {
+      font-size: calc( 16px + 0 * ( ( 100vw - 1216px) / 192 )); } }
+  @media (min-width: 1408px) {
+    h3 {
+      font-size: 16px; } }
+
 p {
   font-size: 16px;
   margin-bottom: 16px; }
@@ -6939,7 +6957,22 @@ div.grupo-X {
   border-top-right-radius: 10px; }
 
 #source-container {
-  margin-top: 35px; }
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #888888; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #source-container {
+      font-size: calc( 16px + 0 * ( ( 100vw - 768px) / 256 )); } }
+  @media (min-width: 1024px) and (max-width: 1216px) {
+    #source-container {
+      font-size: calc( 16px + 0 * ( ( 100vw - 1024px) / 192 )); } }
+  @media (min-width: 1216px) and (max-width: 1408px) {
+    #source-container {
+      font-size: calc( 16px + 0 * ( ( 100vw - 1216px) / 192 )); } }
+  @media (min-width: 1408px) {
+    #source-container {
+      font-size: 16px; } }
 
 div.grupo-A {
   background-color: #3182BD; }
