@@ -37,6 +37,9 @@ var seleccionar_tab = function (tab) {
     if(d3.select('#publications-container').classed('is-hidden')) {
         d3.select('#publications-container').classed('is-hidden', false)
     }
+    if(d3.select('#subscribe-container').classed('is-hidden')) {
+        d3.select('#subscribe-container').classed('is-hidden', false)
+    }
 
 };
 
