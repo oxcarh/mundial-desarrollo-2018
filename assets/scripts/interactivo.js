@@ -34,6 +34,12 @@ var seleccionar_tab = function (tab) {
     d3.select('#source-container').classed('is-hidden', false);
     d3.select('#tab-' + tab).classed('is-active', true);
 
+    /* Para futuras versiones
+    if(tab === 'global-container') {
+        d3.select('#global-map-container').classed('is-hidden', false);
+    }
+    */
+
     if(d3.select('#publications-container').classed('is-hidden')) {
         d3.select('#publications-container').classed('is-hidden', false)
     }
@@ -123,6 +129,7 @@ var VisSimulator = (function () {
     var _draw = function () {
 
         _load_matches();
+        // Para futuras versiones _load_map();
     };
 
     var _load_data = function (fn) {
@@ -189,43 +196,10 @@ var VisSimulator = (function () {
         });
     };
 
-    var _show_circles = function (fn) {
-        var t = d3.transition().duration(100).ease(d3.easeLinear);
-        d3.selectAll('g#knockout-16 > circle')
-            .transition(t)
-            .style('fill-opacity', 1)
-            .on('end', function () {
-                d3.selectAll('g#knockout-8 > circle').transition(t).style('fill-opacity', 1)
-                    .on('end', function () {
-                        d3.selectAll('g#knockout-4 > circle').transition(t).style('fill-opacity', 1)
-                            .on('end', function () {
-                                d3.selectAll('g#knockout-2 > circle').transition(t).style('fill-opacity', 1)
-                                    .on('end', function () {
-                                        d3.selectAll('g#knockout-1 > circle').transition(t).style('fill-opacity', 1)
-                                            .on('end', function () {
-                                                if (fn != undefined) fn();
-                                            });
-                                    });
-                            });
-
-                    });
-
-            });
-    }
-
-    var _show_lines = function () {
-        var t = d3.transition().ease(d3.easeLinear);
-        d3.selectAll('g#lineas-octavos > path').transition(t).style('stroke-opacity', 1);
-        d3.selectAll('g#lineas-cuartos > path').transition(t).style('stroke-opacity', 1);
-        d3.selectAll('g#lineas-semis > path').transition(t).style('stroke-opacity', 1);
-        d3.selectAll('g#lineas-final > path').transition(t).style('stroke-opacity', 1);
-        $('#select-indicator').prop('disabled', false);
-    };
-
-    var _initial_animation = function () {
-        _svg.transition().duration(300).style('opacity', 1);
-        $('#select-indicator').prop('disabled', true);
-        _show_circles(_show_lines);
+    var _load_map = function() {
+        d3.text('assets/images/world-map-mercator.svg').then(function (text) {
+            d3.select('#global-map-container > div').html(text);
+        });
     };
 
     var _load_images = function () {
@@ -306,21 +280,12 @@ var VisSimulator = (function () {
                         popup_single.attr("transform", "translate(" + (matrix.e+10) + "," + (matrix.f) + ")");
                         popup_single.transition()
                             .style('opacity', 1);
-
-                        //d3.selectAll('image.flag').transition().style('opacity', 0.1);
-                        //d3.selectAll('image.flag.' + d.codigo_pais).transition().style('opacity', 1);
-
-                        //d3.selectAll('path.country').transition().style('opacity', 0.1);
-                        //d3.selectAll('path.country.' + d.codigo_pais).transition().style('opacity', 1);
                     })
                     .on('mouseout', function() {
                         popup_single
                             .attr('transform', 'translate(-100, -100)')
                             .transition()
                             .style('opacity', 0);
-
-                        //d3.selectAll('image.flag').transition().style('opacity', 1);
-                        //d3.selectAll('path.country').transition().style('opacity', 1);
                     });
 
 
@@ -373,21 +338,12 @@ var VisSimulator = (function () {
                     var matrix = this.getTransformToElement(tooltipParent).translate(+this.getAttribute("x") + +this.getAttribute("width") / 2, +this.getAttribute("y"));
                     popup_vs.attr("transform", "translate(" + (matrix.e) + "," + (matrix.f+57) + ")");
                     popup_vs.transition().style('opacity', 1);
-
-                    //d3.selectAll('image.flag').transition().style('opacity', 0.1);
-                    //d3.selectAll('image.flag.' + cc).transition().style('opacity', 1);
-
-                    //d3.selectAll('path.country').transition().style('opacity', 0.1);
-                    //d3.selectAll('path.country.' + cc).transition().style('opacity', 1);
                 })
                 .on('mouseout', function() {
                     popup_vs
                         .attr('transform', 'translate(-100, -100)')
                         .transition()
                         .style('opacity', 0);
-
-                    //d3.selectAll('image.flag').transition().style('opacity', 1);
-                    //d3.selectAll('path.country').transition().style('opacity', 1);
                 });
         });
     };
@@ -499,7 +455,7 @@ var VisSimulator = (function () {
         },
         update_indicator: function (indicator_code) {
 
-            _initial_animation();
+            // _initial_animation();
 
             if (d3.select('#tabs-selector').classed('is-hidden')) d3.select('#tabs-selector').classed('is-hidden', false);
             if (d3.select('#info-container').classed('is-hidden')) d3.select('#info-container').classed('is-hidden', false);

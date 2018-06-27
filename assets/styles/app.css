@@ -6933,7 +6933,7 @@ div#vis-simulator {
   margin-top: 20px; }
 
 svg {
-  opacity: 0;
+  opacity: 1;
   width: 100%; }
   svg circle {
     fill-opacity: 0; }
