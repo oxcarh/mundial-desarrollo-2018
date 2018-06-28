@@ -177,7 +177,8 @@ var VisSimulator = (function () {
                 "descripcion": d.DESCRIPCION,
                 "indicador_codigo": d.INDICADOR_CODIGO,
                 "url": d.URL,
-                "image": d.IMAGE
+                "image": d.IMAGE,
+                "tipo": d.TIPO
             }
         }).then(function (data) {
             _publicaciones = data;
@@ -503,23 +504,35 @@ var VisSimulator = (function () {
 
             publicaciones.forEach(function (publicacion) {
 
-                publications_container.html(
-                    publications_container.html() +
-                    '<div class="box">' +
-                    '<div class="columns publication">' +
-                    '  <div class="column">' +
-                    '    <img src="assets/images/publicaciones/' + publicacion.image + '.jpg">' +
-                    '  </div>' +
-                    '  <div class="column is-two-thirds">' +
-                    '    <p><strong>' + publicacion.titulo + '</strong><br/>' + publicacion.descripcion + '</p>' +
-                    '    <p>' +
-                    '      <a target="_blank" href="' + publicacion.url + '">' +
-                    '        <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>&nbsp;Enlace' +
-                    '      </a>' +
-                    '    </p>' +
-                    '  </div>' +
-                    '  </div>' +
-                    '</div>');
+                if(publicacion.tipo === "PUB") {
+                    publications_container.html(
+                        publications_container.html() +
+                        '<div class="box">' +
+                        '<div class="columns publication">' +
+                        '  <div class="column">' +
+                        '    <img src="assets/images/publicaciones/' + publicacion.image + '.jpg">' +
+                        '  </div>' +
+                        '  <div class="column is-two-thirds">' +
+                        '    <p><strong>' + publicacion.titulo + '</strong><br/>' + publicacion.descripcion + '</p>' +
+                        '    <p>' +
+                        '      <a target="_blank" href="' + publicacion.url + '">' +
+                        '        <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>&nbsp;Enlace' +
+                        '      </a>' +
+                        '    </p>' +
+                        '  </div>' +
+                        '  </div>' +
+                        '</div>'
+                    );
+                } else if(publicacion.tipo === "VID") {
+                    publications_container.html(
+                        publications_container.html() +
+                        '<div class="video-container">' +
+                        '<iframe width="1120" height="630" src="' + publicacion.url + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
+                        '</div>'
+                    );
+                } else {
+
+                }
             });
 
         },
