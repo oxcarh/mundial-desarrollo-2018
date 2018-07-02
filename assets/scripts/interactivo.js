@@ -528,7 +528,7 @@ var VisSimulator = (function () {
                         publications_container.html() +
                         '<p><strong>' + publicacion.titulo + '</strong><br/>' + publicacion.descripcion + '</p>' +
                         '<div class="video-container">' +
-                        '<iframe width="1120" height="630" src="' + publicacion.url + '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
+                        '<iframe width="1120" height="630" src="' + publicacion.url + '?modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
                         '</div>'
                     );
                 } else {
